@@ -1,0 +1,3 @@
+D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Source\ThirdPersonShooter\ThirdPersonShooter.Build.cs
+D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Source\ThirdPersonShooter.Target.cs
+D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Source\ThirdPersonShooterEditor.Target.cs

@@ -1,0 +1,5 @@
+D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\Definitions.ThirdPersonShooter.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Source\ThirdPersonShooter/TPSWeapon.h
+d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\intermediate\build\win64\ue4editor\inc\thirdpersonshooter\TPSWeapon.generated.h

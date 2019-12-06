@@ -1,0 +1,2 @@
+D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\Definitions.ThirdPersonShooter.h
+d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\ThirdPersonShooter.h
