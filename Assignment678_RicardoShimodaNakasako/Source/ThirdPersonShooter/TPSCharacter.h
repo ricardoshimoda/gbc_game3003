@@ -17,6 +17,12 @@ class THIRDPERSONSHOOTER_API ATPSCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ATPSCharacter();
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+	// Called to bind functionality to input
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual FVector GetPawnViewLocation() const override;
+	bool IsDead();
 
 protected:
 	// Called when the game starts or when spawned
@@ -38,7 +44,6 @@ protected:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "CoverProperties")
 	bool bInCover;
 	float dt;
-
 	UFUNCTION(BlueprintCallable)
 	virtual void StartZoom();
 	UFUNCTION(BlueprintCallable)
@@ -50,12 +55,11 @@ protected:
 	void EndFire();
 	UFUNCTION(BlueprintCallable)
 	void TakeCover();
-
+	UFUNCTION()
+	void OnHealthChanged(UHealthComponent* OwningHealthComp, float Health, float DeltaHealth, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 	// Health Params
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UHealthComponent* HealthComp;
-	UFUNCTION()
-	void OnHealthChanged(UHealthComponent* OwningHealthComp, float Health, float DeltaHealth, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "PlayerProperties")
 	bool bDead;
 	FTimerHandle WeaponDetachTimer;
@@ -63,12 +67,4 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PlayerProperties")
 	UMaterialInterface* deathMaterial;
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
-	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-	virtual FVector GetPawnViewLocation() const override;
-	bool IsDead();
 };

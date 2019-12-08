@@ -5,6 +5,7 @@
 #include "GameFramework/Actor.h"
 #include "Engine/Engine.h"
 #include "TPSGameMode.h"
+#include "TPSPlayer.h"
 
 // Sets default values for this component's properties
 UHealthComponent::UHealthComponent()
@@ -12,7 +13,6 @@ UHealthComponent::UHealthComponent()
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
-
 	// ...
 }
 
@@ -26,17 +26,21 @@ float UHealthComponent::GetHealth() const
 void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
-	// ...
 	Health = MaxHealth;
-
 	AActor* myOwner = GetOwner();
-
 	if (myOwner)
 	{
 		myOwner->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::HandleTakeAnyDamage);
+		ATPSPlayer* pl = Cast<ATPSPlayer>(myOwner);
+		if (pl) {
+			GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, "Before Manipulating MaxHealth for Player ----" + FString::SanitizeFloat(Health) + "------" + FString::SanitizeFloat(MaxHealth));
+			MaxHealth = 1000;
+			Health = 1000;
+			GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Orange, "Setting Max Health to Player----" + FString::SanitizeFloat(Health) + "------" + FString::SanitizeFloat(MaxHealth));
+		}
 	}
-	
+	StartRegenerationTimer = 0;
+	RegenerationTimer = 0;
 }
 
 
@@ -50,7 +54,7 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 			RegenerationTimer += DeltaTime;
 			if (RegenerationTimer >= RegenerationRate) {
 				RegenerationTimer -= RegenerationRate;
-				//Health = FMath::Clamp(Health + RegenerationAmount, 0.0f, MaxHealth); 
+				Health = FMath::Clamp(Health + RegenerationAmount, 0.0f, MaxHealth); 
 				GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Regenerating... " + FString::SanitizeFloat(Health));
 			}
 		}
@@ -71,6 +75,7 @@ void UHealthComponent::HandleTakeAnyDamage(AActor * DamagedActor, float Damage,
 
 	Health = FMath::Clamp(Health - Damage, 0.0f, MaxHealth);
 	if (Health <= 0.0f) {
+		// Once you're dead you don't come back
 		bRegenerate = false;
 	}
 	OnHealthChanged.Broadcast(this, Health, Damage, DamageType, InstigatedBy, DamageCauser);

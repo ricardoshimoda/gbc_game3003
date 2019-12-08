@@ -34,7 +34,7 @@ void ATPSGameMode::Tick(float DeltaTime)
 void ATPSGameMode::StartWave()
 {
 	waveNumber++;
-	numberOfBotsToSpawn = 10 * waveNumber;
+	numberOfBotsToSpawn = 2 * waveNumber;
 	// set up timer to SpawnBotTimerElapsed()
 	GetWorldTimerManager().SetTimer(TimerHandle_BotSpawner, this, 
 		&ATPSGameMode::SpawnBotTimerElapsed, 1.0f, true, 0.0f);

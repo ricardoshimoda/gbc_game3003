@@ -18,11 +18,11 @@ protected:
 	FTimerHandle TimerHandle_WaveStarter;
 	UPROPERTY(EditDefaultsOnly, Category = "Game Mode")
 	float timeBetweenWaves;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int waveNumber = 0;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int score = 0;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int scoreMultiplierForScreen = 1;
 
 
@@ -49,7 +49,7 @@ public:
 	virtual void StartPlay() override;
 	virtual void Tick(float DeltaTime) override;
 	void AddScore(int scoreToAdd);
-	UFUNCTION(BlueprintCallable, Category = "Game Mode")
+	UFUNCTION()
 	int GetScoreMultiplier();
 	void IncreaseScoreMultiplier();
 	void ResetScoreMultiplier();

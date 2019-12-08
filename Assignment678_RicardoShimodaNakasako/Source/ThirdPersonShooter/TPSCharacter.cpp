@@ -21,11 +21,8 @@ ATPSCharacter::ATPSCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
 	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
 	HealthComp->OnHealthChanged.AddDynamic(this, &ATPSCharacter::OnHealthChanged);
-
-	bDead = false; 
 }
 
 // Called when the game starts or when spawned
@@ -45,6 +42,7 @@ void ATPSCharacter::BeginPlay()
 			FAttachmentTransformRules::SnapToTargetNotIncludingScale, 
 			WeaponSocketName);
 	}
+	//bDead = false;
 }
 
 // Called every frame
@@ -182,8 +180,6 @@ void ATPSCharacter::OnHealthChanged(UHealthComponent* OwningHealthComp, float He
 	if (Health <= 0.0f && !bDead)
 	{
 		bDead = true;
-		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Jim, he is dead... " + FString::SanitizeFloat(Health));
-
 		GetMovementComponent()->StopMovementImmediately();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 		DetachFromControllerPendingDestroy();

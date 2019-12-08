@@ -16,11 +16,12 @@ public:
 	// Sets default values for this component's properties
 	UHealthComponent();
 	float GetHealth() const;
+	UPROPERTY(BlueprintAssignable, Category = "Events")
+	FOnHealthChangedSignature OnHealthChanged;
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-protected:	
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
@@ -29,26 +30,24 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
 	float MaxHealth;
-
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Regeneration")
 	float RegenerationRate;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Regeneration")
 	float RegenerationCooldown;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
-	bool bRegenerate=false;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Regeneration")
+	bool bRegenerate;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Health")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Regeneration")
 	int RegenerationAmount;
-
+	
 	UFUNCTION()
-	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser);
+	void HandleTakeAnyDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, 
+		class AController* InstigatedBy, AActor* DamageCauser);
 
-private:
-	float StartRegenerationTimer=0.0f;
-	float RegenerationTimer=0.0f;
-public:
-	UPROPERTY(BlueprintAssignable, Category = "Events")
-	FOnHealthChangedSignature OnHealthChanged;
+	float StartRegenerationTimer;
+	float RegenerationTimer;
+
 };
