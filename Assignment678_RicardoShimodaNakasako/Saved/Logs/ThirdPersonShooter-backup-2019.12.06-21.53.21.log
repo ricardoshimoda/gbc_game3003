@@ -1,0 +1,1384 @@
+﻿Log file open, 12/06/19 16:29:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: ThirdPersonShooter
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.965179
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1809) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: NVIDIA GeForce GTX 1060
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.06-21.29.18:184][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.06-21.29.18:184][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.06-21.29.18:184][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Engine.ini]
+[2019.12.06-21.29.18:184][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.06-21.29.18:185][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.06-21.29.18:185][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Engine.ini]
+[2019.12.06-21.29.18:185][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Engine.ini]
+[2019.12.06-21.29.18:185][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.06-21.29.18:186][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.06-21.29.18:186][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.06-21.29.18:186][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.06-21.29.18:186][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.06-21.29.18:186][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.06-21.29.18:187][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.06-21.29.18:187][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.06-21.29.18:187][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.06-21.29.18:187][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.06-21.29.18:187][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.06-21.29.18:188][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.06-21.29.18:188][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.06-21.29.18:188][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Engine.ini]
+[2019.12.06-21.29.18:188][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.06-21.29.18:188][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.06-21.29.18:189][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.06-21.29.18:189][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.06-21.29.18:189][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.06-21.29.18:189][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.06-21.29.18:189][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.06-21.29.18:190][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.06-21.29.18:190][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.06-21.29.18:190][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.06-21.29.18:190][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.06-21.29.18:190][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.06-21.29.18:191][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.06-21.29.18:191][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Engine.ini]
+[2019.12.06-21.29.18:191][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Engine.ini]
+[2019.12.06-21.29.18:244][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:245][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.06-21.29.18:245][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.06-21.29.18:245][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:246][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.06-21.29.18:246][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:247][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.06-21.29.18:247][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.06-21.29.18:247][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.06-21.29.18:247][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.06-21.29.18:248][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.06-21.29.18:248][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.06-21.29.18:248][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.06-21.29.18:248][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.06-21.29.18:249][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.06-21.29.18:249][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.06-21.29.18:249][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.06-21.29.18:250][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.06-21.29.18:250][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.06-21.29.18:250][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.06-21.29.18:250][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.06-21.29.18:251][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.06-21.29.18:251][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.06-21.29.18:251][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.06-21.29.18:251][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:251][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.06-21.29.18:252][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.06-21.29.18:252][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.06-21.29.18:252][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.06-21.29.18:252][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.06-21.29.18:253][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.06-21.29.18:254][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.06-21.29.18:254][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.06-21.29.18:258][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.06-21.29.18:258][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.06-21.29.18:259][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.06-21.29.18:259][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.06-21.29.18:259][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.06-21.29.18:259][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.06-21.29.18:260][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.06-21.29.18:260][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.06-21.29.18:260][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.06-21.29.18:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.06-21.29.18:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.06-21.29.18:261][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.06-21.29.18:262][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.06-21.29.18:262][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.06-21.29.18:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.06-21.29.18:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.06-21.29.18:265][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.06-21.29.18:265][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.06-21.29.18:266][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.06-21.29.18:266][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.06-21.29.18:266][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.06-21.29.18:266][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.06-21.29.18:266][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:267][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.06-21.29.18:267][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.06-21.29.18:267][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.06-21.29.18:267][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.06-21.29.18:267][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.06-21.29.18:268][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.06-21.29.18:268][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.06-21.29.18:268][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.06-21.29.18:268][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:269][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.06-21.29.18:269][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.06-21.29.18:269][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.06-21.29.18:269][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.06-21.29.18:269][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.06-21.29.18:270][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.06-21.29.18:270][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.06-21.29.18:270][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.06-21.29.18:270][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.06-21.29.18:271][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.06-21.29.18:272][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.06-21.29.18:272][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.06-21.29.18:273][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.06-21.29.18:273][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:274][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.06-21.29.18:274][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.06-21.29.18:275][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.06-21.29.18:275][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.06-21.29.18:402][  0]LogHAL: Display: Platform has ~ 16 GB [17044676608 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.06-21.29.18:402][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.06-21.29.18:403][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.06-21.29.18:403][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:403][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.06-21.29.18:404][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.06-21.29.18:404][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:404][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.06-21.29.18:404][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:405][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.06-21.29.18:405][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.06-21.29.18:405][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.06-21.29.18:405][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.06-21.29.18:405][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.06-21.29.18:406][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.06-21.29.18:406][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.06-21.29.18:406][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.06-21.29.18:406][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.06-21.29.18:407][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.06-21.29.18:407][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.06-21.29.18:407][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.06-21.29.18:407][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.06-21.29.18:407][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.06-21.29.18:408][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.06-21.29.18:408][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.06-21.29.18:408][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.06-21.29.18:408][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.06-21.29.18:409][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:409][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.06-21.29.18:409][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.06-21.29.18:409][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.06-21.29.18:409][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.06-21.29.18:410][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.06-21.29.18:410][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.06-21.29.18:410][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.06-21.29.18:410][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.06-21.29.18:411][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.06-21.29.18:411][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.06-21.29.18:411][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.06-21.29.18:411][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.06-21.29.18:412][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.06-21.29.18:412][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.06-21.29.18:412][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.06-21.29.18:412][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.06-21.29.18:412][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.06-21.29.18:413][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.06-21.29.18:414][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.06-21.29.18:414][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.06-21.29.18:414][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.06-21.29.18:414][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.06-21.29.18:414][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.06-21.29.18:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.06-21.29.18:415][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.06-21.29.18:415][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.06-21.29.18:415][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.06-21.29.18:415][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.06-21.29.18:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.06-21.29.18:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.06-21.29.18:416][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:416][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.06-21.29.18:417][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.06-21.29.18:417][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.06-21.29.18:417][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.06-21.29.18:417][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.06-21.29.18:417][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.06-21.29.18:418][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.06-21.29.18:418][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.06-21.29.18:418][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:418][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.06-21.29.18:418][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.06-21.29.18:419][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.06-21.29.18:419][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.06-21.29.18:419][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.06-21.29.18:419][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.06-21.29.18:420][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.06-21.29.18:420][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.06-21.29.18:420][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.06-21.29.18:421][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.06-21.29.18:421][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.06-21.29.18:421][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.06-21.29.18:421][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.06-21.29.18:421][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Scalability.ini]
+[2019.12.06-21.29.18:422][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.06-21.29.18:422][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.06-21.29.18:422][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.06-21.29.18:423][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.06-21.29.18:423][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.06-21.29.18:424][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Config/Windows/Engine.ini]
+[2019.12.06-21.29.18:424][  0]LogInit: Computer: DESKTOP-JCIH07M
+[2019.12.06-21.29.18:424][  0]LogInit: User: Ricardo
+[2019.12.06-21.29.18:425][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.06-21.29.18:425][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.06-21.29.18:426][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.06-21.29.18:426][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.06-21.29.18:426][  0]LogMemory: Process Physical Memory: 102.05 MB used, 102.05 MB peak
+[2019.12.06-21.29.18:427][  0]LogMemory: Process Virtual Memory: 92.96 MB used, 92.96 MB peak
+[2019.12.06-21.29.18:427][  0]LogMemory: Physical Memory: 7296.96 MB used,  8958.11 MB free, 16255.07 MB total
+[2019.12.06-21.29.18:427][  0]LogMemory: Virtual Memory: 4676.25 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2019.12.06-21.29.19:682][  0]LogInit: Using OS detected language (en-US).
+[2019.12.06-21.29.19:682][  0]LogInit: Using OS detected locale (en-CA).
+[2019.12.06-21.29.19:689][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.06-21.29.21:065][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.06-21.29.21:619][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.06-21.29.21:620][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.06-21.29.39:596][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.12.06-21.29.39:597][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.06-21.29.41:026][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2019.12.06-21.29.41:026][  0]LogD3D11RHI:       6052/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.12.06-21.29.41:086][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.12.06-21.29.41:086][  0]LogD3D11RHI:       128/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.12.06-21.29.41:102][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.06-21.29.41:102][  0]LogD3D11RHI:       0/0/8127 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.06-21.29.41:103][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.06-21.29.41:129][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.06-21.29.41:130][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.06-21.29.41:130][  0]LogWindows: EnumDisplayDevices:
+[2019.12.06-21.29.41:131][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2019.12.06-21.29.41:133][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.12.06-21.29.41:135][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.12.06-21.29.41:136][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2019.12.06-21.29.41:139][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.12.06-21.29.41:140][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.12.06-21.29.41:142][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.12.06-21.29.41:143][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.12.06-21.29.41:144][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2019.12.06-21.29.41:144][  0]LogD3D11RHI:   Driver Version: 431.53 (internal:26.21.14.3153, unified:431.53)
+[2019.12.06-21.29.41:144][  0]LogD3D11RHI:      Driver Date: 7-12-2019
+[2019.12.06-21.29.41:144][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.12.06-21.29.41:344][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.06-21.29.41:468][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.06-21.29.41:470][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.06-21.29.41:470][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.06-21.29.41:485][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.06-21.29.42:824][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.06-21.29.42:989][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.06-21.29.43:111][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.06-21.29.43:223][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.06-21.29.43:350][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.06-21.29.43:471][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.06-21.29.43:621][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.06-21.29.43:780][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.06-21.29.43:868][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.06-21.29.44:490][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.06-21.29.44:499][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.06-21.29.44:502][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.06-21.29.44:503][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.06-21.29.44:506][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.06-21.29.44:508][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.06-21.29.44:508][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.06-21.29.44:509][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.06-21.29.44:510][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.06-21.29.44:510][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.06-21.29.44:511][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.06-21.29.44:511][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.06-21.29.44:512][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.06-21.29.44:513][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.06-21.29.44:513][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.06-21.29.44:514][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.06-21.29.44:514][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.06-21.29.44:515][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.06-21.29.44:599][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.06-21.29.44:989][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.06-21.29.44:989][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.06-21.29.45:164][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.06-21.29.45:164][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.06-21.29.45:286][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.06-21.29.45:460][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.06-21.29.45:633][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.06-21.29.45:801][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.06-21.29.46:153][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.06-21.29.46:155][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.06-21.29.46:156][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.06-21.29.46:479][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.06-21.29.47:987][  0]LogShaderCompilers: Guid format shader working directory is -55 characters bigger than the processId version (../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Intermediate/Shaders/WorkingDirectory/1200/).
+[2019.12.06-21.29.47:988][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ricardo/AppData/Local/Temp/UnrealShaderWorkingDir/DCA2F15342A7F335A7A6C9A7D6DCD467/'.
+[2019.12.06-21.29.47:993][  0]LogXGEController: Cleaning working directory: C:/Users/Ricardo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.06-21.29.47:994][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.06-21.29.47:995][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.06-21.29.47:995][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.06-21.29.57:530][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.06-21.29.57:708][  0]LogDerivedDataCache: Loaded boot cache 0.18s 71MB C:/Users/Ricardo/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.06-21.29.57:708][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ricardo/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.06-21.29.57:709][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.06-21.29.57:710][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.06-21.29.57:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.06-21.29.57:711][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.06-21.29.57:789][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.06-21.29.57:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.06-21.29.57:790][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.06-21.29.57:807][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ricardo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.06-21.29.57:807][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.06-21.29.57:807][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.06-21.29.57:914][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.06-21.29.57:919][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.06-21.29.57:980][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.06-21.29.58:885][  0]LogAssetRegistry: FAssetRegistry took 0.0805 seconds to start up
+[2019.12.06-21.30.00:285][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.06-21.30.01:850][  0]LogTemp: IOS device listing is disabled (to many failed attempts)!
+[2019.12.06-21.30.01:850][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.06-21.30.01:851][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.06-21.30.01:851][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.06-21.30.01:851][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.06-21.30.01:852][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.06-21.30.01:986][  0]LogNetVersion: ThirdPersonShooter 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 947051492)
+[2019.12.06-21.30.05:803][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.160854 seconds
+[2019.12.06-21.30.05:828][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.06-21.30.05:828][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.06-21.30.05:828][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.06-21.30.19:762][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.06-21.30.19:840][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.06-21.30.21:184][  0]SourceControl: Source control is disabled
+[2019.12.06-21.30.21:184][  0]SourceControl: Source control is disabled
+[2019.12.06-21.30.21:249][  0]SourceControl: Source control is disabled
+[2019.12.06-21.30.21:317][  0]SourceControl: Source control is disabled
+[2019.12.06-21.30.23:669][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.06-21.30.24:904][  0]LogOcInput: OculusInput pre-init called
+[2019.12.06-21.30.28:083][  0]LogEngine: Initializing Engine...
+[2019.12.06-21.30.33:902][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2019.12.06-21.30.33:908][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.12.06-21.30.35:587][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.06-21.30.35:710][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.06-21.30.35:885][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.06-21.30.36:269][  0]LogInit: FAudioDevice initialized.
+[2019.12.06-21.30.36:270][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.06-21.30.36:503][  0]LogDerivedDataCache: Saved boot cache 0.23s 71MB C:/Users/Ricardo/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.06-21.30.36:595][  0]LogInit: Texture streaming: Enabled
+[2019.12.06-21.30.36:936][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.06-21.30.36:936][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={AF5F88AA-4B50-E2DF-A270-8BA2C2CEA64D}
+[2019.12.06-21.30.37:175][  0]LogInit: Transaction tracking system initialized
+[2019.12.06-21.30.37:623][  0]BlueprintLog: New page: Editor Load
+[2019.12.06-21.30.39:194][  0]LocalizationService: Localization service is disabled
+[2019.12.06-21.30.42:122][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/' took 0.03s
+[2019.12.06-21.30.42:123][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.06-21.30.42:123][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.06-21.30.45:100][  0]SourceControl: Source control is disabled
+[2019.12.06-21.30.45:101][  0]Cmd: MAP LOAD FILE="../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.06-21.30.45:120][  0]LightingResults: New page: Lighting Build
+[2019.12.06-21.30.45:126][  0]MapCheck: New page: Map Check
+[2019.12.06-21.30.45:126][  0]LightingResults: New page: Lighting Build
+[2019.12.06-21.30.45:236][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.02ms
+[2019.12.06-21.30.47:776][  0]LogBlueprint: Error: [Compiler PlayerUI] In use pin  <Unnamed>  no longer exists on node  Get Score Multiplier . Please refresh node or break links to remove pin.
+[2019.12.06-21.30.47:777][  0]LogBlueprint: Error: [Compiler PlayerUI] In use pin  <Unnamed>  no longer exists on node  Get Score Multiplier . Please refresh node or break links to remove pin.
+[2019.12.06-21.30.47:777][  0]LogBlueprint: Error: [Compiler PlayerUI] In use pin  Target  no longer exists on node  Get Score Multiplier . Please refresh node or break links to remove pin.
+[2019.12.06-21.30.47:778][  0]LogBlueprint: Error: [Compiler PlayerUI] In use pin  Return Value  no longer exists on node  Get Score Multiplier . Please refresh node or break links to remove pin.
+[2019.12.06-21.30.47:779][  0]LogBlueprint: Error: [Compiler PlayerUI] Could not find a function named "GetScoreMultiplier" in 'TPSGameMode'.
+Make sure 'TPSGameMode' has been compiled for  Get Score Multiplier
+[2019.12.06-21.30.47:814][  0]LogBlueprint: Warning: [Compiler PlayerUI] [0099.47] Compile of PlayerUI failed. 5 Fatal Issue(s) 0 Warning(s) [in 59 ms] (/Game/BluePrints/PlayerUI.PlayerUI)
+[2019.12.06-21.30.50:825][  0]LogAIModule: Creating AISystem for world TestLevel
+[2019.12.06-21.30.51:003][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.06-21.30.51:129][  0]LogUObjectHash: Compacting FUObjectHashTables data took   9.68ms
+[2019.12.06-21.30.51:130][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.06-21.30.51:131][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.354ms to complete.
+[2019.12.06-21.30.51:131][  0]LogFileHelpers: Loading map 'TestLevel' took 6.030
+[2019.12.06-21.30.51:565][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-21.30.51:608][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-21.30.51:651][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-21.30.51:691][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-21.30.51:813][  0]LogCollectionManager: Loaded 0 collections in 0.004890 seconds
+[2019.12.06-21.30.51:851][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/Collections/' took 0.02s
+[2019.12.06-21.30.51:852][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/Developers/Ricardo/Collections/' took 0.00s
+[2019.12.06-21.30.51:852][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/Collections/' took 0.00s
+[2019.12.06-21.30.51:853][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.12.06-21.30.51:896][  0]LogContentBrowser: Native class hierarchy populated in 0.0421 seconds. Added 2747 classes and 663 folders.
+[2019.12.06-21.30.51:928][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.12.06-21.30.51:957][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.51:990][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:067][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:087][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:128][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:151][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:176][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:203][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:230][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:250][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:269][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:289][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:311][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:332][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:354][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:510][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:532][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:577][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:600][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:623][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:650][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:674][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:694][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.52:715][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.06-21.30.53:237][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.12.06-21.30.53:332][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2019.12.06-21.30.53:418][  0]LogSlate: Took 0.021065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.06-21.30.53:447][  0]LogSlate: Took 0.022522 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.06-21.30.53:503][  0]LogSlate: Took 0.024944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.06-21.30.54:018][  0]LogRenderer: Reallocating scene render targets to support 1208x544 Format 10 NumSamples 1 (Frame:1).
+[2019.12.06-21.30.54:215][  0]LogSlate: Took 0.016080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.06-21.30.54:461][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.12.06-21.30.54:461][  0]LogLoad: (Engine Initialization) Total time: 106.11 seconds
+[2019.12.06-21.30.54:461][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.06-21.30.54:543][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.06-21.30.54:742][  1]LogAssetRegistry: Asset discovery search completed in 55.8879 seconds
+[2019.12.06-21.30.54:751][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.12.06-21.30.54:751][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000457 seconds (updated 0 objects)
+[2019.12.06-21.32.11:130][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.06-21.32.11:269][922]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.06-21.32.11:337][922]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.32.11:337][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.06-21.32.16:470][922]LogSlate: Window 'Message' being destroyed
+[2019.12.06-21.32.28:396][434]LogSlate: Took 0.000488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.06-21.32.28:427][434]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/PlayerUI.PlayerUI
+[2019.12.06-21.32.29:904][434]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 121 classes and 0 folders.
+[2019.12.06-21.32.33:042][434]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2019.12.06-21.32.34:581][434]LogSlate: Took 0.016529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.06-21.32.37:898][560]LogSlate: Window 'PlayerUI' being destroyed
+[2019.12.06-21.34.24:904][163]Candidate modules for hot reload:
+[2019.12.06-21.34.24:905][163]  ThirdPersonShooter
+[2019.12.06-21.34.24:905][163]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ThirdPersonShooter,9713 Win64 Development -TargetType=Editor -Project="D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/ThirdPersonShooter.uproject" "D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/ThirdPersonShooter.uproject"  -IgnoreJunk]
+[2019.12.06-21.34.24:913][163]Warning: Starting HotReload took  0.1s.
+[2019.12.06-21.34.55:128][625]LogUObjectHash: Compacting FUObjectHashTables data took  26.47ms
+[2019.12.06-21.34.56:212][625]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/TestLevel264413E047F0755951E3B4A33D47DE8C.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/Maps/TestLevel.umap'
+[2019.12.06-21.34.56:496][625]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/TestLevel_BuiltData448527984DCE8A7C35D8BCAB0E8F6D99.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/Maps/TestLevel_BuiltData.uasset'
+[2019.12.06-21.34.58:967][709]LogUObjectHash: Compacting FUObjectHashTables data took  18.91ms
+[2019.12.06-21.35.01:438][709]LogSlate: Window 'Save Content' being destroyed
+[2019.12.06-21.35.01:758][709]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/PlayerUIB09D13D24E725356F1931F887D9D350D.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/BluePrints/PlayerUI.uasset'
+[2019.12.06-21.35.18:980][983]CompilerResultsLog: New page: Compilation - Dec 6, 2019, 11:35:18 AM
+[2019.12.06-21.35.18:981][983]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003).
+[2019.12.06-21.35.18:981][983]CompilerResultsLog: Creating makefile for ThirdPersonShooterEditor (ini files are newer than makefile)
+[2019.12.06-21.35.18:981][983]CompilerResultsLog: Parsing headers for ThirdPersonShooterEditor
+[2019.12.06-21.35.18:982][983]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\ThirdPersonShooter.uproject" "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.06-21.35.18:982][983]CompilerResultsLog: Reflection code generated for ThirdPersonShooterEditor in 32.2791119 seconds
+[2019.12.06-21.35.18:983][983]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.35.18:983][983]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.35.18:983][983]CompilerResultsLog: Attempting to retry...
+[2019.12.06-21.35.18:984][983]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.35.18:984][983]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.35.18:985][983]CompilerResultsLog: Attempting to retry...
+[2019.12.06-21.35.18:985][983]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.35.18:985][983]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.35.18:986][983]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.12.06-21.35.18:986][983]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2019.12.06-21.35.18:987][983]CompilerResultsLog: Building 8 actions with 8 processes...
+[2019.12.06-21.35.18:987][983]CompilerResultsLog:   [1/8] ThirdPersonShooter.init.gen.cpp
+[2019.12.06-21.35.18:987][983]CompilerResultsLog:   [2/8] TPSGameMode.gen.cpp
+[2019.12.06-21.35.18:988][983]CompilerResultsLog:   [3/8] TPSGameMode.cpp
+[2019.12.06-21.35.18:988][983]CompilerResultsLog:    D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Source\ThirdPersonShooter\TPSGameMode.cpp(31) : error C2143: syntax error: missing ';' before '}'
+[2019.12.06-21.35.18:989][983]CompilerResultsLog:   [4/8] TPSCharacter.cpp
+[2019.12.06-21.35.18:989][983]CompilerResultsLog:   [5/8] TPSWeapon.cpp
+[2019.12.06-21.35.18:990][983]LogMainFrame: MainFrame: Module compiling took 54.099 seconds
+[2019.12.06-21.35.18:990][983]Warning: HotReload failed, recompile failed
+[2019.12.06-21.36.08:625][450]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.06-21.36.08:773][450]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.36.08:773][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.06-21.36.12:088][450]LogSlate: Window 'Message' being destroyed
+[2019.12.06-21.36.13:367][488]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/PlayerUI.PlayerUI
+[2019.12.06-21.36.16:286][575]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.36.16:311][575]LogBlueprint: Error: [Compiler PlayerUI] In use pin  <Unnamed>  no longer exists on node  Get Score Multiplier . Please refresh node or break links to remove pin.
+[2019.12.06-21.36.16:311][575]LogBlueprint: Error: [Compiler PlayerUI] In use pin  <Unnamed>  no longer exists on node  Get Score Multiplier . Please refresh node or break links to remove pin.
+[2019.12.06-21.36.16:312][575]LogBlueprint: Error: [Compiler PlayerUI] In use pin  Target  no longer exists on node  Get Score Multiplier . Please refresh node or break links to remove pin.
+[2019.12.06-21.36.16:313][575]LogBlueprint: Error: [Compiler PlayerUI] In use pin  Return Value  no longer exists on node  Get Score Multiplier . Please refresh node or break links to remove pin.
+[2019.12.06-21.36.16:314][575]LogBlueprint: Error: [Compiler PlayerUI] Could not find a function named "GetScoreMultiplier" in 'TPSGameMode'.
+Make sure 'TPSGameMode' has been compiled for  Get Score Multiplier
+[2019.12.06-21.36.16:464][575]LogUObjectHash: Compacting FUObjectHashTables data took  10.92ms
+[2019.12.06-21.36.16:488][575]LogBlueprint: Warning: [Compiler PlayerUI] [0428.14] Compile of PlayerUI failed. 5 Fatal Issue(s) 0 Warning(s) [in 200 ms] (/Game/BluePrints/PlayerUI.PlayerUI)
+[2019.12.06-21.36.25:257][175]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.36.25:412][175]LogUObjectHash: Compacting FUObjectHashTables data took  13.11ms
+[2019.12.06-21.37.16:610][834]Candidate modules for hot reload:
+[2019.12.06-21.37.16:611][834]  ThirdPersonShooter
+[2019.12.06-21.37.16:611][834]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ThirdPersonShooter,4497 Win64 Development -TargetType=Editor -Project="D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/ThirdPersonShooter.uproject" "D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/ThirdPersonShooter.uproject"  -IgnoreJunk]
+[2019.12.06-21.37.16:619][834]Warning: Starting HotReload took  0.0s.
+[2019.12.06-21.37.29:598][380]LogUObjectHash: Compacting FUObjectHashTables data took  15.78ms
+[2019.12.06-21.37.30:666][380]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/TestLevel2C7C3DB54C97849DCF8AD4BE74980F50.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/Maps/TestLevel.umap'
+[2019.12.06-21.37.30:871][380]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/TestLevel_BuiltDataAAB85BD04DCD415D5AE24684FD25843B.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/Maps/TestLevel_BuiltData.uasset'
+[2019.12.06-21.37.33:573][508]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/PlayerUI4122B1094B57840B23944DAD0AA93741.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/BluePrints/PlayerUI.uasset'
+[2019.12.06-21.37.33:876][513]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/PlayerUI9603534A4EF84E8D8DA31F8547A53F1E.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/BluePrints/PlayerUI.uasset'
+[2019.12.06-21.37.34:293][528]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/PlayerUIDCA1FBF74C01D690D5C252BD855FBEF3.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/BluePrints/PlayerUI.uasset'
+[2019.12.06-21.38.05:953][645]CompilerResultsLog: New page: Compilation - Dec 6, 2019, 11:38:05 AM
+[2019.12.06-21.38.05:954][645]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003).
+[2019.12.06-21.38.05:954][645]CompilerResultsLog: Creating makefile for ThirdPersonShooterEditor (ini files are newer than makefile)
+[2019.12.06-21.38.05:955][645]CompilerResultsLog: Parsing headers for ThirdPersonShooterEditor
+[2019.12.06-21.38.05:955][645]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\ThirdPersonShooter.uproject" "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.06-21.38.05:956][645]CompilerResultsLog: Reflection code generated for ThirdPersonShooterEditor in 28.9976864 seconds
+[2019.12.06-21.38.05:956][645]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.38.05:957][645]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.38.05:957][645]CompilerResultsLog: Attempting to retry...
+[2019.12.06-21.38.05:958][645]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.38.05:958][645]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.38.05:959][645]CompilerResultsLog: Attempting to retry...
+[2019.12.06-21.38.05:959][645]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.38.05:960][645]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.38.05:961][645]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.12.06-21.38.05:961][645]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2019.12.06-21.38.05:961][645]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.12.06-21.38.05:962][645]CompilerResultsLog:   [1/7] ThirdPersonShooter.init.gen.cpp
+[2019.12.06-21.38.05:962][645]CompilerResultsLog:   [2/7] TPSGameMode.gen.cpp
+[2019.12.06-21.38.05:963][645]CompilerResultsLog:   [3/7] TPSGameMode.cpp
+[2019.12.06-21.38.05:963][645]CompilerResultsLog:    D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Source\ThirdPersonShooter\TPSGameMode.cpp(31) : error C2143: syntax error: missing ';' before '}'
+[2019.12.06-21.38.05:963][645]CompilerResultsLog:   [4/7] TPSWeapon.cpp
+[2019.12.06-21.38.05:964][645]LogMainFrame: MainFrame: Module compiling took 49.361 seconds
+[2019.12.06-21.38.05:964][645]Warning: HotReload failed, recompile failed
+[2019.12.06-21.38.59:808][244]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/BP_TestGameMode.BP_TestGameMode
+[2019.12.06-21.39.04:118][352]LogSlate: Window 'BP_TestGameMode' being destroyed
+[2019.12.06-21.39.08:014][530]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/BluePrints/PlayerUI.PlayerUI
+[2019.12.06-21.40.30:598][918]Candidate modules for hot reload:
+[2019.12.06-21.40.30:598][918]  ThirdPersonShooter
+[2019.12.06-21.40.30:599][918]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ThirdPersonShooter,4163 Win64 Development -TargetType=Editor -Project="D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/ThirdPersonShooter.uproject" "D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/ThirdPersonShooter.uproject"  -IgnoreJunk]
+[2019.12.06-21.40.30:605][918]Warning: Starting HotReload took  0.0s.
+[2019.12.06-21.41.23:268][622]CompilerResultsLog: New page: Compilation - Dec 6, 2019, 11:41:23 AM
+[2019.12.06-21.41.23:269][622]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003).
+[2019.12.06-21.41.23:269][622]CompilerResultsLog: Creating makefile for ThirdPersonShooterEditor (ini files are newer than makefile)
+[2019.12.06-21.41.23:270][622]CompilerResultsLog: Parsing headers for ThirdPersonShooterEditor
+[2019.12.06-21.41.23:270][622]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\ThirdPersonShooter.uproject" "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.06-21.41.23:270][622]CompilerResultsLog: Reflection code generated for ThirdPersonShooterEditor in 30.7712379 seconds
+[2019.12.06-21.41.23:271][622]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.41.23:271][622]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.41.23:272][622]CompilerResultsLog: Attempting to retry...
+[2019.12.06-21.41.23:272][622]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.41.23:273][622]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.41.23:273][622]CompilerResultsLog: Attempting to retry...
+[2019.12.06-21.41.23:274][622]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.41.23:274][622]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.41.23:275][622]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.12.06-21.41.23:275][622]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2019.12.06-21.41.23:276][622]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.12.06-21.41.23:276][622]CompilerResultsLog:   [1/7] ThirdPersonShooter.init.gen.cpp
+[2019.12.06-21.41.23:276][622]CompilerResultsLog:   [2/7] TPSGameMode.gen.cpp
+[2019.12.06-21.41.23:277][622]CompilerResultsLog:   [3/7] TPSGameMode.cpp
+[2019.12.06-21.41.23:277][622]CompilerResultsLog:    D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Source\ThirdPersonShooter\TPSGameMode.cpp(31) : error C2143: syntax error: missing ';' before '}'
+[2019.12.06-21.41.23:278][622]CompilerResultsLog:   [4/7] TPSWeapon.cpp
+[2019.12.06-21.41.23:278][622]LogMainFrame: MainFrame: Module compiling took 52.688 seconds
+[2019.12.06-21.41.23:279][622]Warning: HotReload failed, recompile failed
+[2019.12.06-21.41.54:145][ 85]Candidate modules for hot reload:
+[2019.12.06-21.41.54:145][ 85]  ThirdPersonShooter
+[2019.12.06-21.41.54:146][ 85]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ThirdPersonShooter,2363 Win64 Development -TargetType=Editor -Project="D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/ThirdPersonShooter.uproject" "D:/Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/ThirdPersonShooter.uproject"  -IgnoreJunk]
+[2019.12.06-21.41.54:154][ 85]Warning: Starting HotReload took  0.0s.
+[2019.12.06-21.42.49:508][827]CompilerResultsLog: New page: Compilation - Dec 6, 2019, 11:42:49 AM
+[2019.12.06-21.42.49:509][827]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003).
+[2019.12.06-21.42.49:510][827]CompilerResultsLog: Creating makefile for ThirdPersonShooterEditor (ini files are newer than makefile)
+[2019.12.06-21.42.49:510][827]CompilerResultsLog: Parsing headers for ThirdPersonShooterEditor
+[2019.12.06-21.42.49:510][827]CompilerResultsLog:   Running UnrealHeaderTool "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\ThirdPersonShooter.uproject" "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.12.06-21.42.49:511][827]CompilerResultsLog: Reflection code generated for ThirdPersonShooterEditor in 31.9667277 seconds
+[2019.12.06-21.42.49:512][827]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.42.49:513][827]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.42.49:513][827]CompilerResultsLog: Attempting to retry...
+[2019.12.06-21.42.49:513][827]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.42.49:514][827]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.42.49:514][827]CompilerResultsLog: Attempting to retry...
+[2019.12.06-21.42.49:515][827]CompilerResultsLog: Failed to delete file 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb'
+[2019.12.06-21.42.49:515][827]CompilerResultsLog:     Exception: Access to the path 'D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Binaries\Win64\UE4Editor-ThirdPersonShooter.pdb' is denied.
+[2019.12.06-21.42.49:516][827]CompilerResultsLog: ERROR: Exhausted all retries!
+[2019.12.06-21.42.49:516][827]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
+[2019.12.06-21.42.49:516][827]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.12.06-21.42.49:517][827]CompilerResultsLog:   [1/4] TPSGameMode.cpp
+[2019.12.06-21.42.49:517][827]CompilerResultsLog:   [2/4] UE4Editor-ThirdPersonShooter-2363.lib
+[2019.12.06-21.42.49:518][827]CompilerResultsLog:      Creating library D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter-2363.lib and object D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter-2363.exp
+[2019.12.06-21.42.49:518][827]CompilerResultsLog:   [3/4] UE4Editor-ThirdPersonShooter-2363.dll
+[2019.12.06-21.42.49:518][827]CompilerResultsLog:      Creating library D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter-2363.suppressed.lib and object D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter-2363.suppressed.exp
+[2019.12.06-21.42.49:519][827]CompilerResultsLog:   [4/4] ThirdPersonShooterEditor.target
+[2019.12.06-21.42.49:519][827]CompilerResultsLog: Total time in Parallel executor: 9.93 seconds
+[2019.12.06-21.42.49:520][827]CompilerResultsLog: Total execution time: 54.87 seconds
+[2019.12.06-21.42.49:521][827]LogMainFrame: MainFrame: Module compiling took 55.385 seconds
+[2019.12.06-21.42.49:676][827]LogUObjectHash: Compacting FUObjectHashTables data took  14.40ms
+[2019.12.06-21.42.49:681][827]LogBlueprintActionDatabase: Requesting refresh due to module change: ThirdPersonShooter (unloaded)
+[2019.12.06-21.42.49:802][827]LogClass: Could not find existing class TPSGameMode in package /Script/ThirdPersonShooter for HotReload, assuming new class
+[2019.12.06-21.42.49:803][827]LogClass: Function GetScoreMultiplier is new.
+[2019.12.06-21.42.49:880][827]LogHotReload: Re-instancing TPSGameMode after hot-reload.
+[2019.12.06-21.42.50:509][827]LogBlueprintActionDatabase: Requesting refresh due to module change: ThirdPersonShooter (loaded)
+[2019.12.06-21.42.50:512][827]LogContentBrowser: Native class hierarchy updated for 'ThirdPersonShooter' in 0.0019 seconds. Added 8 classes and 2 folders.
+[2019.12.06-21.42.50:527][827]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.12.06-21.42.50:928][827]LogUObjectHash: Compacting FUObjectHashTables data took  13.45ms
+[2019.12.06-21.42.50:934][827]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.12.06-21.42.51:003][827]LogContentBrowser: Native class hierarchy populated in 0.0378 seconds. Added 2748 classes and 665 folders.
+[2019.12.06-21.42.51:004][827]Display: HotReload took 56.9s.
+[2019.12.06-21.42.55:653][984]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.06-21.42.55:776][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.42.55:776][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.06-21.42.55:777][984]PIE: New page: PIE session: TestLevel (Dec 6, 2019, 11:42:55 AM)
+[2019.12.06-21.42.55:800][984]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2019.12.06-21.42.55:832][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031121s)
+[2019.12.06-21.42.55:835][984]LogAIModule: Creating AISystem for world TestLevel
+[2019.12.06-21.42.55:836][984]LogPlayLevel: PIE: World Init took: (0.003207s)
+[2019.12.06-21.42.55:837][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.036487s)
+[2019.12.06-21.42.56:062][984]LogUObjectHash: Compacting FUObjectHashTables data took  16.57ms
+[2019.12.06-21.42.56:111][984]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.06-21.42.56:332][984]LogInit: FAudioDevice initialized.
+[2019.12.06-21.42.56:402][984]LogLoad: Game class is 'BP_TestGameMode_C'
+[2019.12.06-21.42.56:415][984]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2019.12.06-16.42.56
+[2019.12.06-21.42.56:418][984]LogWorld: Bringing up level for play took: 0.012875
+[2019.12.06-21.42.56:499][984]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.12.06-21.42.56:516][984]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.12.06-21.42.56:518][984]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 20 classes and 0 folders.
+[2019.12.06-21.42.56:525][984]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel 1.606
+[2019.12.06-21.42.56:526][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.42.56:554][984]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.56:555][984]LogScript: Warning: Attempted to access missing property 'score'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00EC
+[2019.12.06-21.42.57:876][985]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_0
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.42.57:877][985]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.42.57:878][985]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_0
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.42.57:879][985]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.42.57:915][985]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.57:916][985]LogScript: Warning: Attempted to access missing property 'score'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00EC
+[2019.12.06-21.42.57:953][986]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.57:953][986]LogScript: Warning: Attempted to access missing property 'score'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00EC
+[2019.12.06-21.42.57:974][987]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.57:975][987]LogScript: Warning: Attempted to access missing property 'score'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00EC
+[2019.12.06-21.42.57:993][988]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.57:994][988]LogScript: Warning: Attempted to access missing property 'score'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00EC
+[2019.12.06-21.42.58:012][989]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.58:013][989]LogScript: Warning: Attempted to access missing property 'score'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00EC
+[2019.12.06-21.42.58:037][990]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.58:037][990]LogScript: Warning: Attempted to access missing property 'score'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00EC
+[2019.12.06-21.42.58:061][991]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.58:062][991]LogScript: Warning: Attempted to access missing property 'score'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00EC
+[2019.12.06-21.42.58:088][992]LogScript: Warning: Attempted to access missing property 'waveNumber'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	PlayerUI_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.PlayerUI_C_0
+	Function /Game/BluePrints/PlayerUI.PlayerUI_C:ExecuteUbergraph_PlayerUI:00B9
+[2019.12.06-21.42.58:137][994]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_1
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.42.58:137][994]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.42.58:138][994]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_1
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.42.58:139][994]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.42.59:152][ 32]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_2
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.42.59:153][ 32]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.42.59:153][ 32]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_2
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.42.59:154][ 32]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.43.00:151][ 75]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_3
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.43.00:152][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.43.00:153][ 75]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_3
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.43.00:154][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.43.01:157][114]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_4
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.43.01:158][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.43.01:158][114]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_4
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.43.01:159][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.43.02:140][159]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_5
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.43.02:141][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.43.02:141][159]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_5
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.43.02:142][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.43.03:137][203]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_6
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.43.03:138][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.43.03:138][203]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_6
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.43.03:139][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.43.04:147][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_7
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.43.04:148][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.43.04:149][242]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_7
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.43.04:150][242]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.43.05:139][285]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_8
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.43.05:140][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.43.05:140][285]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_8
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.43.05:141][285]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.43.06:143][326]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_9
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.43.06:144][326]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.43.06:145][326]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_9
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.43.06:146][326]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.43.12:688][585]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.43.12:690][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-21.43.12:751][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.06-21.43.12:752][585]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.43.12:930][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-21.43.13:122][585]LogUObjectHash: Compacting FUObjectHashTables data took  26.97ms
+[2019.12.06-21.43.13:303][586]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.12.06-21.43.14:823][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.06-21.45.37:194][390]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/PlayerUI943E79AD4A5AF9C5321F1A8BDCEBD0F1.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/BluePrints/PlayerUI.uasset'
+[2019.12.06-21.45.38:092][442]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.38:286][442]LogUObjectHash: Compacting FUObjectHashTables data took  15.92ms
+[2019.12.06-21.45.38:315][442]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.38:512][442]LogUObjectHash: Compacting FUObjectHashTables data took  16.10ms
+[2019.12.06-21.45.38:540][442]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.38:734][442]LogUObjectHash: Compacting FUObjectHashTables data took  14.14ms
+[2019.12.06-21.45.38:759][442]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.38:942][442]LogUObjectHash: Compacting FUObjectHashTables data took  13.83ms
+[2019.12.06-21.45.38:967][442]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.39:125][442]LogUObjectHash: Compacting FUObjectHashTables data took  14.42ms
+[2019.12.06-21.45.39:150][442]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.39:334][442]LogUObjectHash: Compacting FUObjectHashTables data took  14.51ms
+[2019.12.06-21.45.39:362][442]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.39:553][442]LogUObjectHash: Compacting FUObjectHashTables data took  18.43ms
+[2019.12.06-21.45.39:582][442]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.39:779][442]LogUObjectHash: Compacting FUObjectHashTables data took  18.52ms
+[2019.12.06-21.45.41:402][505]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/PlayerUI05F3B5A94ED797CAC3FBC2B3AB8473AA.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/BluePrints/PlayerUI.uasset'
+[2019.12.06-21.45.42:419][563]BlueprintLog: New page: Compile PlayerUI
+[2019.12.06-21.45.42:604][563]LogUObjectHash: Compacting FUObjectHashTables data took  15.32ms
+[2019.12.06-21.45.43:560][599]LogSavePackage: Moving '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Saved/PlayerUI56EF1D064B33B03417DDB691C2EB3574.tmp' to '../../../../../../Projects/GBC/05/GAME3003-ConsoleDev/gbc_game3003/Assignment678_RicardoShimodaNakasako/Content/BluePrints/PlayerUI.uasset'
+[2019.12.06-21.45.45:946][714]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.06-21.45.46:017][714]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.45.46:017][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.06-21.45.46:018][714]PIE: New page: PIE session: TestLevel (Dec 6, 2019, 11:45:46 AM)
+[2019.12.06-21.45.46:018][714]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2019.12.06-21.45.46:050][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030720s)
+[2019.12.06-21.45.46:052][714]LogAIModule: Creating AISystem for world TestLevel
+[2019.12.06-21.45.46:053][714]LogPlayLevel: PIE: World Init took: (0.002498s)
+[2019.12.06-21.45.46:053][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.034530s)
+[2019.12.06-21.45.46:220][714]LogUObjectHash: Compacting FUObjectHashTables data took  17.20ms
+[2019.12.06-21.45.46:293][714]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.06-21.45.46:510][714]LogInit: FAudioDevice initialized.
+[2019.12.06-21.45.46:558][714]LogLoad: Game class is 'BP_TestGameMode_C'
+[2019.12.06-21.45.46:566][714]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2019.12.06-16.45.46
+[2019.12.06-21.45.46:568][714]LogWorld: Bringing up level for play took: 0.008104
+[2019.12.06-21.45.46:593][714]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestLevel -0.325
+[2019.12.06-21.45.46:594][714]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.45.46:646][715]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_0
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.46:646][715]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.46:647][715]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_0
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.46:648][715]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.47:249][744]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_1
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.47:250][744]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.47:251][744]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_1
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.47:252][744]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.48:248][786]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_2
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.48:249][786]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.48:250][786]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_2
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.48:250][786]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.49:247][830]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_3
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.49:248][830]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.49:248][830]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_3
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.49:249][830]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.50:265][879]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_4
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.50:266][879]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.50:266][879]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_4
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.50:267][879]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.51:268][923]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_5
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.51:269][923]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.51:269][923]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_5
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.51:270][923]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.52:248][955]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_6
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.52:249][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.52:250][955]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_6
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.52:251][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.53:267][  1]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_7
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.53:267][  1]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.53:268][  1]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_7
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.53:269][  1]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.54:255][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_8
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.54:256][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.54:257][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_8
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.54:258][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.45.55:251][ 89]LogScript: Warning: Accessed None trying to read property CallFunc_GetAIController_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_9
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:004C
+[2019.12.06-21.45.55:252][ 89]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetAIController_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Run Behavior Tree
+[2019.12.06-21.45.55:253][ 89]LogScript: Warning: Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue
+	BP_Test_HumanoidAI_C /Game/Maps/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Test_HumanoidAI_C_9
+	Function /Game/BluePrints/BP_Test_HumanoidAI.BP_Test_HumanoidAI_C:ExecuteUbergraph_BP_Test_HumanoidAI:0148
+[2019.12.06-21.45.55:254][ 89]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetBlackboard_ReturnValue". Blueprint:  BP_Test_HumanoidAI Function:  Execute Ubergraph BP Test Humanoid AI Graph:  EventGraph Node:  Set Value as Object
+[2019.12.06-21.46.23:627][412]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.46.23:628][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-21.46.23:684][412]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.12.06-21.46.23:685][412]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/TestLevel.TestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel' with GeneratedClass '/Game/Maps/TestLevel.TestLevel_C' with ClassGeneratedBy '/Game/Maps/TestLevel.TestLevel:PersistentLevel.TestLevel'
+[2019.12.06-21.46.23:857][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.06-21.46.23:885][412]LogUObjectHash: Compacting FUObjectHashTables data took  15.12ms
+[2019.12.06-21.46.24:061][413]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.12.06-21.46.25:943][536]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.06-21.53.15:711][897]LogUObjectHash: Compacting FUObjectHashTables data took  19.44ms
+[2019.12.06-21.53.16:036][897]LogSlate: Window 'ThirdPersonShooter - Unreal Editor' being destroyed
+[2019.12.06-21.53.16:517][898]Cmd: QUIT_EDITOR
+[2019.12.06-21.53.17:293][898]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.06-21.53.17:352][898]LogExit: Preparing to exit.
+[2019.12.06-21.53.18:328][898]LogExit: Editor shut down
+[2019.12.06-21.53.18:329][898]LogExit: Transaction tracking system shut down
+[2019.12.06-21.53.19:037][898]LogExit: Object subsystem successfully closed.
+[2019.12.06-21.53.19:119][898]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.12.06-21.53.19:138][898]LogD3D11RHI: Shutdown
+[2019.12.06-21.53.19:139][898]LogD3D11RHI: CleanupD3DDevice
+[2019.12.06-21.53.19:140][898]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.06-21.53.19:141][898]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.06-21.53.19:141][898]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.06-21.53.19:141][898]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.06-21.53.19:142][898]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.12.06-21.53.19:142][898]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.12.06-21.53.19:432][898]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.12.06-21.53.19:485][898]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (655)
+[2019.12.06-21.53.19:486][898]LogModuleManager: Shutting down and abandoning module Voice (653)
+[2019.12.06-21.53.19:486][898]LogModuleManager: Shutting down and abandoning module ThirdPersonShooter (651)
+[2019.12.06-21.53.19:486][898]LogModuleManager: Shutting down and abandoning module SequencerWidgets (650)
+[2019.12.06-21.53.19:486][898]LogModuleManager: Shutting down and abandoning module BlueprintGraph (648)
+[2019.12.06-21.53.19:487][898]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (646)
+[2019.12.06-21.53.19:487][898]LogModuleManager: Shutting down and abandoning module SceneOutliner (644)
+[2019.12.06-21.53.19:487][898]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2019.12.06-21.53.19:489][898]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2019.12.06-21.53.19:489][898]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2019.12.06-21.53.19:489][898]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2019.12.06-21.53.19:490][898]LogModuleManager: Shutting down and abandoning module StatsViewer (634)
+[2019.12.06-21.53.19:491][898]LogModuleManager: Shutting down and abandoning module FoliageEdit (632)
+[2019.12.06-21.53.19:491][898]LogModuleManager: Shutting down and abandoning module LandscapeEditor (630)
+[2019.12.06-21.53.19:493][898]LogModuleManager: Shutting down and abandoning module MeshPaintMode (628)
+[2019.12.06-21.53.19:493][898]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (626)
+[2019.12.06-21.53.19:494][898]LogModuleManager: Shutting down and abandoning module ActorPickerMode (624)
+[2019.12.06-21.53.19:494][898]LogModuleManager: Shutting down and abandoning module GeometryMode (622)
+[2019.12.06-21.53.19:494][898]LogModuleManager: Shutting down and abandoning module TextureAlignMode (620)
+[2019.12.06-21.53.19:494][898]LogModuleManager: Shutting down and abandoning module BspMode (618)
+[2019.12.06-21.53.19:495][898]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (616)
+[2019.12.06-21.53.19:496][898]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (614)
+[2019.12.06-21.53.19:496][898]LogModuleManager: Shutting down and abandoning module AutomationWorker (612)
+[2019.12.06-21.53.19:496][898]LogModuleManager: Shutting down and abandoning module OculusMR (610)
+[2019.12.06-21.53.19:496][898]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (608)
+[2019.12.06-21.53.19:497][898]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (606)
+[2019.12.06-21.53.19:497][898]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (604)
+[2019.12.06-21.53.19:498][898]LogModuleManager: Shutting down and abandoning module PlacementMode (603)
+[2019.12.06-21.53.19:498][898]LogModuleManager: Shutting down and abandoning module MaterialEditor (602)
+[2019.12.06-21.53.19:499][898]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (598)
+[2019.12.06-21.53.19:500][898]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (596)
+[2019.12.06-21.53.19:500][898]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (594)
+[2019.12.06-21.53.19:500][898]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (592)
+[2019.12.06-21.53.19:500][898]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (590)
+[2019.12.06-21.53.19:501][898]LogModuleManager: Shutting down and abandoning module WebMMedia (588)
+[2019.12.06-21.53.19:501][898]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (586)
+[2019.12.06-21.53.19:501][898]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (584)
+[2019.12.06-21.53.19:502][898]LogModuleManager: Shutting down and abandoning module SequenceRecorder (583)
+[2019.12.06-21.53.19:502][898]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (580)
+[2019.12.06-21.53.19:502][898]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (578)
+[2019.12.06-21.53.19:503][898]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (576)
+[2019.12.06-21.53.19:503][898]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (574)
+[2019.12.06-21.53.19:504][898]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (572)
+[2019.12.06-21.53.19:504][898]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (570)
+[2019.12.06-21.53.19:504][898]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (568)
+[2019.12.06-21.53.19:504][898]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (566)
+[2019.12.06-21.53.19:505][898]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (564)
+[2019.12.06-21.53.19:505][898]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (562)
+[2019.12.06-21.53.19:505][898]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (560)
+[2019.12.06-21.53.19:505][898]LogModuleManager: Shutting down and abandoning module CharacterAI (558)
+[2019.12.06-21.53.19:506][898]LogModuleManager: Shutting down and abandoning module SmartSnapping (556)
+[2019.12.06-21.53.19:506][898]LogModuleManager: Shutting down and abandoning module SessionServices (554)
+[2019.12.06-21.53.19:506][898]LogModuleManager: Shutting down and abandoning module MeshPaint (552)
+[2019.12.06-21.53.19:507][898]LogModuleManager: Shutting down and abandoning module ViewportSnapping (550)
+[2019.12.06-21.53.19:507][898]LogModuleManager: Shutting down and abandoning module ViewportInteraction (548)
+[2019.12.06-21.53.19:507][898]LogModuleManager: Shutting down and abandoning module ClothPainter (546)
+[2019.12.06-21.53.19:508][898]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (545)
+[2019.12.06-21.53.19:510][898]LogModuleManager: Shutting down and abandoning module LogVisualizer (542)
+[2019.12.06-21.53.19:510][898]LogModuleManager: Shutting down and abandoning module IntroTutorials (540)
+[2019.12.06-21.53.19:510][898]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (539)
+[2019.12.06-21.53.19:511][898]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (536)
+[2019.12.06-21.53.19:511][898]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (534)
+[2019.12.06-21.53.19:512][898]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (532)
+[2019.12.06-21.53.19:512][898]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (530)
+[2019.12.06-21.53.19:512][898]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (529)
+[2019.12.06-21.53.20:642][898]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (526)
+[2019.12.06-21.53.20:643][898]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (524)
+[2019.12.06-21.53.20:643][898]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (522)
+[2019.12.06-21.53.20:643][898]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (520)
+[2019.12.06-21.53.20:643][898]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (518)
+[2019.12.06-21.53.20:643][898]LogModuleManager: Shutting down and abandoning module InputBindingEditor (516)
+[2019.12.06-21.53.20:644][898]LogModuleManager: Shutting down and abandoning module MergeActors (514)
+[2019.12.06-21.53.20:644][898]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (512)
+[2019.12.06-21.53.20:644][898]LogModuleManager: Shutting down and abandoning module LocalizationService (511)
+[2019.12.06-21.53.20:649][898]LogModuleManager: Shutting down and abandoning module HardwareTargeting (508)
+[2019.12.06-21.53.20:649][898]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (506)
+[2019.12.06-21.53.20:650][898]LogModuleManager: Shutting down and abandoning module UndoHistory (504)
+[2019.12.06-21.53.20:650][898]LogModuleManager: Shutting down and abandoning module XmlParser (502)
+[2019.12.06-21.53.20:651][898]LogModuleManager: Shutting down and abandoning module Blutility (500)
+[2019.12.06-21.53.20:651][898]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (498)
+[2019.12.06-21.53.20:651][898]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (497)
+[2019.12.06-21.53.20:652][898]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (494)
+[2019.12.06-21.53.20:652][898]LogModuleManager: Shutting down and abandoning module SettingsEditor (492)
+[2019.12.06-21.53.20:652][898]LogModuleManager: Shutting down and abandoning module ProjectLauncher (490)
+[2019.12.06-21.53.20:654][898]LogModuleManager: Shutting down and abandoning module SessionFrontend (488)
+[2019.12.06-21.53.20:655][898]LogModuleManager: Shutting down and abandoning module ProfilerClient (486)
+[2019.12.06-21.53.20:656][898]LogModuleManager: Shutting down and abandoning module DeviceManager (484)
+[2019.12.06-21.53.20:656][898]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (483)
+[2019.12.06-21.53.20:700][898]LogModuleManager: Shutting down and abandoning module AutomationController (480)
+[2019.12.06-21.53.20:700][898]LogModuleManager: Shutting down and abandoning module AutomationWindow (478)
+[2019.12.06-21.53.20:702][898]LogModuleManager: Shutting down and abandoning module Layers (476)
+[2019.12.06-21.53.20:704][898]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (474)
+[2019.12.06-21.53.20:705][898]LogModuleManager: Shutting down and abandoning module DetailCustomizations (472)
+[2019.12.06-21.53.20:705][898]LogModuleManager: Shutting down and abandoning module PackagesDialog (470)
+[2019.12.06-21.53.20:706][898]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (468)
+[2019.12.06-21.53.20:707][898]LogModuleManager: Shutting down and abandoning module Persona (466)
+[2019.12.06-21.53.20:708][898]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (465)
+[2019.12.06-21.53.20:708][898]LogModuleManager: Shutting down and abandoning module AnimGraph (463)
+[2019.12.06-21.53.20:709][898]LogModuleManager: Shutting down and abandoning module Kismet (460)
+[2019.12.06-21.53.20:733][898]LogModuleManager: Shutting down and abandoning module GraphEditor (458)
+[2019.12.06-21.53.20:734][898]LogModuleManager: Shutting down and abandoning module ClassViewer (456)
+[2019.12.06-21.53.20:734][898]LogModuleManager: Shutting down and abandoning module Toolbox (454)
+[2019.12.06-21.53.20:734][898]LogModuleManager: Shutting down and abandoning module DesktopPlatform (453)
+[2019.12.06-21.53.20:734][898]LogModuleManager: Shutting down and abandoning module ModuleUI (450)
+[2019.12.06-21.53.20:735][898]LogModuleManager: Shutting down and abandoning module MovieSceneTools (448)
+[2019.12.06-21.53.20:736][898]LogModuleManager: Shutting down and abandoning module OutputLog (446)
+[2019.12.06-21.53.20:736][898]LogModuleManager: Shutting down and abandoning module GammaUI (444)
+[2019.12.06-21.53.20:737][898]LogModuleManager: Shutting down and abandoning module Documentation (442)
+[2019.12.06-21.53.20:737][898]LogModuleManager: Shutting down and abandoning module LiveCoding (440)
+[2019.12.06-21.53.20:738][898]LogModuleManager: Shutting down and abandoning module LevelSequence (438)
+[2019.12.06-21.53.20:738][898]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (436)
+[2019.12.06-21.53.20:739][898]LogModuleManager: Shutting down and abandoning module MovieScene (434)
+[2019.12.06-21.53.20:739][898]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (432)
+[2019.12.06-21.53.20:739][898]LogModuleManager: Shutting down and abandoning module LauncherPlatform (430)
+[2019.12.06-21.53.20:739][898]LogModuleManager: Shutting down and abandoning module AnalyticsET (428)
+[2019.12.06-21.53.20:740][898]LogModuleManager: Shutting down and abandoning module PortalServices (426)
+[2019.12.06-21.53.20:740][898]LogModuleManager: Shutting down and abandoning module PortalRpc (424)
+[2019.12.06-21.53.20:740][898]LogModuleManager: Shutting down and abandoning module MessagingRpc (422)
+[2019.12.06-21.53.20:740][898]LogModuleManager: Shutting down and abandoning module AIModule (420)
+[2019.12.06-21.53.20:741][898]LogModuleManager: Shutting down and abandoning module GameplayDebugger (419)
+[2019.12.06-21.53.20:741][898]LogModuleManager: Shutting down and abandoning module AITestSuite (417)
+[2019.12.06-21.53.20:741][898]LogModuleManager: Shutting down and abandoning module NavigationSystem (415)
+[2019.12.06-21.53.20:742][898]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (412)
+[2019.12.06-21.53.20:763][898]LogModuleManager: Shutting down and abandoning module ProfilerService (410)
+[2019.12.06-21.53.20:905][898]LogModuleManager: Shutting down and abandoning module TaskGraph (408)
+[2019.12.06-21.53.20:910][898]LogModuleManager: Shutting down and abandoning module SteamVRController (406)
+[2019.12.06-21.53.20:910][898]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (404)
+[2019.12.06-21.53.20:910][898]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (402)
+[2019.12.06-21.53.20:910][898]LogModuleManager: Shutting down and abandoning module OculusEditor (400)
+[2019.12.06-21.53.20:911][898]LogModuleManager: Shutting down and abandoning module OculusInput (398)
+[2019.12.06-21.53.20:911][898]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (396)
+[2019.12.06-21.53.20:911][898]LogModuleManager: Shutting down and abandoning module EditableMesh (394)
+[2019.12.06-21.53.20:911][898]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (392)
+[2019.12.06-21.53.20:912][898]LogModuleManager: Shutting down and abandoning module CableComponent (390)
+[2019.12.06-21.53.20:912][898]LogModuleManager: Shutting down and abandoning module AudioCapture (388)
+[2019.12.06-21.53.20:912][898]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (386)
+[2019.12.06-21.53.20:912][898]LogModuleManager: Shutting down and abandoning module AndroidPermission (384)
+[2019.12.06-21.53.20:913][898]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (382)
+[2019.12.06-21.53.20:913][898]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (380)
+[2019.12.06-21.53.20:913][898]LogModuleManager: Shutting down and abandoning module MediaCompositing (378)
+[2019.12.06-21.53.20:913][898]LogModuleManager: Shutting down and abandoning module LinearTimecode (376)
+[2019.12.06-21.53.20:914][898]LogModuleManager: Shutting down and abandoning module ImgMedia (374)
+[2019.12.06-21.53.20:914][898]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (372)
+[2019.12.06-21.53.20:914][898]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (370)
+[2019.12.06-21.53.20:914][898]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (368)
+[2019.12.06-21.53.20:915][898]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.12.06-21.53.20:915][898]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.12.06-21.53.20:915][898]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.12.06-21.53.20:915][898]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.12.06-21.53.20:916][898]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.12.06-21.53.20:916][898]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.12.06-21.53.20:916][898]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.12.06-21.53.20:917][898]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.12.06-21.53.20:917][898]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.12.06-21.53.20:917][898]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.12.06-21.53.20:918][898]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.12.06-21.53.20:918][898]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.12.06-21.53.20:918][898]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.12.06-21.53.20:919][898]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.12.06-21.53.20:919][898]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.12.06-21.53.20:922][898]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.12.06-21.53.20:925][898]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (334)
+[2019.12.06-21.53.20:927][898]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
+[2019.12.06-21.53.20:929][898]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
+[2019.12.06-21.53.20:930][898]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
+[2019.12.06-21.53.20:931][898]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
+[2019.12.06-21.53.20:932][898]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
+[2019.12.06-21.53.20:933][898]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
+[2019.12.06-21.53.20:934][898]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
+[2019.12.06-21.53.20:937][898]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
+[2019.12.06-21.53.20:940][898]LogModuleManager: Shutting down and abandoning module SourceControl (317)
+[2019.12.06-21.53.20:941][898]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
+[2019.12.06-21.53.20:941][898]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (312)
+[2019.12.06-21.53.20:941][898]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.12.06-21.53.20:942][898]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.12.06-21.53.20:942][898]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.12.06-21.53.20:942][898]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.12.06-21.53.20:942][898]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.12.06-21.53.20:943][898]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.12.06-21.53.20:944][898]LogModuleManager: Shutting down and abandoning module SignificanceManager (296)
+[2019.12.06-21.53.20:945][898]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.12.06-21.53.20:945][898]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.12.06-21.53.20:945][898]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.12.06-21.53.20:946][898]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2019.12.06-21.53.20:946][898]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.12.06-21.53.20:947][898]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.12.06-21.53.21:047][898]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.12.06-21.53.21:148][898]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (280)
+[2019.12.06-21.53.21:148][898]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (278)
+[2019.12.06-21.53.21:148][898]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (276)
+[2019.12.06-21.53.21:149][898]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (274)
+[2019.12.06-21.53.21:149][898]LogModuleManager: Shutting down and abandoning module MagicLeapController (272)
+[2019.12.06-21.53.21:150][898]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.12.06-21.53.21:150][898]LogModuleManager: Shutting down and abandoning module MagicLeapAR (270)
+[2019.12.06-21.53.21:150][898]LogModuleManager: Shutting down and abandoning module AugmentedReality (269)
+[2019.12.06-21.53.21:150][898]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (266)
+[2019.12.06-21.53.21:155][898]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (264)
+[2019.12.06-21.53.21:155][898]LogModuleManager: Shutting down and abandoning module FacialAnimation (262)
+[2019.12.06-21.53.21:155][898]LogModuleManager: Shutting down and abandoning module DataValidation (260)
+[2019.12.06-21.53.21:156][898]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (258)
+[2019.12.06-21.53.21:157][898]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2019.12.06-21.53.21:159][898]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2019.12.06-21.53.21:159][898]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (254)
+[2019.12.06-21.53.21:160][898]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2019.12.06-21.53.21:160][898]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2019.12.06-21.53.21:162][898]LogModuleManager: Shutting down and abandoning module ContentBrowser (247)
+[2019.12.06-21.53.21:165][898]LogModuleManager: Shutting down and abandoning module TreeMap (245)
+[2019.12.06-21.53.21:166][898]LogModuleManager: Shutting down and abandoning module AnimationSharing (242)
+[2019.12.06-21.53.21:166][898]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
+[2019.12.06-21.53.21:166][898]LogModuleManager: Shutting down and abandoning module AISupportModule (238)
+[2019.12.06-21.53.21:166][898]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2019.12.06-21.53.21:167][898]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2019.12.06-21.53.21:167][898]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (232)
+[2019.12.06-21.53.21:167][898]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2019.12.06-21.53.21:167][898]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2019.12.06-21.53.21:167][898]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2019.12.06-21.53.21:169][898]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2019.12.06-21.53.21:169][898]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2019.12.06-21.53.21:169][898]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2019.12.06-21.53.21:169][898]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (218)
+[2019.12.06-21.53.21:171][898]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.12.06-21.53.21:171][898]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.12.06-21.53.21:172][898]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.12.06-21.53.21:172][898]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.12.06-21.53.21:173][898]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.12.06-21.53.21:174][898]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.12.06-21.53.21:174][898]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.12.06-21.53.21:175][898]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.12.06-21.53.21:175][898]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.12.06-21.53.21:175][898]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.12.06-21.53.21:176][898]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.12.06-21.53.21:176][898]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.12.06-21.53.21:178][898]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.12.06-21.53.21:178][898]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.12.06-21.53.21:184][898]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.12.06-21.53.21:184][898]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.12.06-21.53.21:184][898]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.12.06-21.53.21:185][898]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.12.06-21.53.21:185][898]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.12.06-21.53.21:185][898]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.12.06-21.53.21:185][898]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.12.06-21.53.21:185][898]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.12.06-21.53.21:186][898]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.12.06-21.53.21:187][898]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.12.06-21.53.21:187][898]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.12.06-21.53.21:187][898]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.12.06-21.53.21:188][898]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.12.06-21.53.21:190][898]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.12.06-21.53.21:190][898]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.12.06-21.53.21:191][898]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.12.06-21.53.21:219][898]LogDerivedDataCache: Shutdown
+[2019.12.06-21.53.21:220][898]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.12.06-21.53.21:220][898]LogXGEController: Cleaning working directory: C:/Users/Ricardo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.12.06-21.53.21:221][898]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.12.06-21.53.21:221][898]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.12.06-21.53.21:221][898]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.12.06-21.53.21:222][898]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.12.06-21.53.21:222][898]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.12.06-21.53.21:223][898]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.12.06-21.53.21:223][898]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.12.06-21.53.21:224][898]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.12.06-21.53.21:224][898]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.12.06-21.53.21:224][898]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.12.06-21.53.21:230][898]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.12.06-21.53.21:231][898]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.12.06-21.53.21:231][898]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.12.06-21.53.21:231][898]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.12.06-21.53.21:232][898]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.12.06-21.53.21:232][898]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.12.06-21.53.21:233][898]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.12.06-21.53.21:236][898]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.12.06-21.53.21:236][898]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.12.06-21.53.21:237][898]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.12.06-21.53.21:237][898]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.12.06-21.53.21:237][898]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.12.06-21.53.21:239][898]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.12.06-21.53.21:240][898]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.12.06-21.53.21:242][898]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.12.06-21.53.21:243][898]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.12.06-21.53.21:260][898]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.12.06-21.53.21:261][898]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.12.06-21.53.21:261][898]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.12.06-21.53.21:261][898]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.12.06-21.53.21:262][898]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.12.06-21.53.21:262][898]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.12.06-21.53.21:262][898]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.12.06-21.53.21:262][898]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.12.06-21.53.21:263][898]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.12.06-21.53.21:263][898]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.12.06-21.53.21:263][898]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.12.06-21.53.21:263][898]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.12.06-21.53.21:264][898]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.12.06-21.53.21:264][898]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.12.06-21.53.21:264][898]LogHMD: Freeing OpenVRDLLHandle.
+[2019.12.06-21.53.21:264][898]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.12.06-21.53.21:265][898]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.12.06-21.53.21:265][898]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.12.06-21.53.21:265][898]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.12.06-21.53.21:265][898]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.12.06-21.53.21:272][898]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.12.06-21.53.21:273][898]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.12.06-21.53.21:289][898]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.12.06-21.53.21:289][898]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.12.06-21.53.21:289][898]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC3AACBF-41B6-5612-1D31-0EBEF4AFECBF%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=bb00d3ba4f476258457306b3da1d1180%7C63943e1c45fb4a9582beb3391ebc3cb2%7C9e531f8b-7708-4644-9976-62d7fabaf65a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.12.06-21.53.21:316][898]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.12.06-21.53.21:320][898]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.12.06-21.53.21:332][898]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.12.06-21.53.21:341][898]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.12.06-21.53.21:341][898]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.12.06-21.53.21:342][898]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.12.06-21.53.21:344][898]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.12.06-21.53.21:344][898]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.12.06-21.53.21:348][898]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.12.06-21.53.21:351][898]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.12.06-21.53.21:352][898]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.12.06-21.53.21:352][898]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.12.06-21.53.21:354][898]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.12.06-21.53.21:355][898]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.12.06-21.53.21:356][898]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.12.06-21.53.21:356][898]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.12.06-21.53.21:356][898]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.12.06-21.53.21:356][898]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.12.06-21.53.21:356][898]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.12.06-21.53.21:357][898]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.12.06-21.53.21:357][898]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.12.06-21.53.21:357][898]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.12.06-21.53.21:357][898]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.12.06-21.53.21:358][898]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.12.06-21.53.21:428][898]LogExit: Exiting.
+[2019.12.06-21.53.21:505][898]Log file closed, 12/06/19 16:53:21

@@ -194,11 +194,11 @@
 /I "D:\Windows Kits\10\include\10.0.16299.0\shared"
 /I "D:\Windows Kits\10\include\10.0.16299.0\um"
 /I "D:\Windows Kits\10\include\10.0.16299.0\winrt"
-/I D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine
-/Yc"D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine
+/Yc"D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

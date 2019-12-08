@@ -1,33 +1,16 @@
-﻿  Creating makefile for ThirdPersonShooterEditor (no existing makefile)
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003).
+  Creating makefile for ThirdPersonShooterEditor (ini files are newer than makefile)
   Parsing headers for ThirdPersonShooterEditor
-    Running UnrealHeaderTool "D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\ThirdPersonShooter.uproject" "D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ThirdPersonShooterEditor in 27.7513812 seconds
+    Running UnrealHeaderTool "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\ThirdPersonShooter.uproject" "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ThirdPersonShooterEditor in 22.7499436 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
-  Building 23 actions with 8 processes...
-    [1/23] Default.rc2
-    [2/23] SharedPCH.Engine.cpp
-    [3/23] ThirdPersonShooter.cpp
-    [4/23] HealthComponent.cpp
-    [5/23] TPSAI.cpp
-    [6/23] TPSGameMode.cpp
-    [7/23] ThirdPersonShooterGameModeBase.cpp
-    [8/23] TPSPlayer.cpp
-    [9/23] HealthComponent.gen.cpp
-    [10/23] TPSWeapon.cpp
-    [11/23] ThirdPersonShooterGameModeBase.gen.cpp
-    [12/23] TPSGameMode.gen.cpp
-    [13/23] TPSAI.gen.cpp
-    [14/23] TPSCharacter.gen.cpp
-    [15/23] TPSCharacter.cpp
-    [16/23] TPSWeapon.gen.cpp
-    [17/23] TPSPlayer.gen.cpp
-    [18/23] ThirdPersonShooter.init.gen.cpp
-    [19/23] Tracker.gen.cpp
-    [20/23] Tracker.cpp
-    [21/23] UE4Editor-ThirdPersonShooter.lib
-       Creating library D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.lib and object D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.exp
-    [22/23] UE4Editor-ThirdPersonShooter.dll
-       Creating library D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.suppressed.lib and object D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.suppressed.exp
-    [23/23] ThirdPersonShooterEditor.target
-  Total time in Parallel executor: 114.18 seconds
-  Total execution time: 152.78 seconds
+  Building 5 actions with 8 processes...
+    [1/5] HealthComponent.cpp
+    [2/5] TPSCharacter.cpp
+    [3/5] UE4Editor-ThirdPersonShooter.lib
+       Creating library D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.lib and object D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.exp
+    [4/5] UE4Editor-ThirdPersonShooter.dll
+       Creating library D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.suppressed.lib and object D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.suppressed.exp
+    [5/5] ThirdPersonShooterEditor.target
+  Total time in Parallel executor: 9.10 seconds
+  Total execution time: 38.68 seconds

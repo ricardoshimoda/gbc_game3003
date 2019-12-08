@@ -10,6 +10,11 @@
 #include "TimerManager.h"
 #include "PhysicalMaterials/PhysicalMaterial.h"
 #include "ThirdPersonShooter.h"
+#include "TPSCharacter.h"
+#include "TPSAI.h"
+#include "TPSGameMode.h"
+#include "Engine/Engine.h"
+#include "TPSPlayer.h"
 
 int32 DebugDrawWeapons = 0;
 
@@ -56,11 +61,16 @@ void ATPSWeapon::EndFire()
 
 void ATPSWeapon::Fire()
 {
-
 	APawn* MyOwner = Cast<APawn>(GetOwner());
-
 	if (MyOwner)
 	{
+		// Checks if owner is still alive
+		ATPSCharacter* characterOwner = Cast<ATPSCharacter>(GetOwner());
+		if (characterOwner && characterOwner->IsDead()) {
+			EndFire();
+			return;
+		}
+
 		FVector EyeLoc;
 		FRotator EyeRot;
 		MyOwner->GetActorEyesViewPoint(EyeLoc, EyeRot);
@@ -102,8 +112,31 @@ void ATPSWeapon::Fire()
 				break;
 			}
 
-			UGameplayStatics::ApplyPointDamage(HitActor, DamageToApply, EyeRot.Vector(), Hit, MyOwner->GetInstigatorController(), this, DamageType);
+			UGameplayStatics::ApplyPointDamage(HitActor, DamageToApply, EyeRot.Vector(), 
+				Hit, MyOwner->GetInstigatorController(), this, DamageType);
 
+			ATPSAI* bot = Cast<ATPSAI>(HitActor);
+			if (bot) {
+				ATPSGameMode* gm = Cast<ATPSGameMode>(GetWorld()->GetAuthGameMode());
+				if (bot->IsDead()) {
+					if (DamageToApply > BaseDamage) {
+						GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Bot Really died Adding 50");
+						gm->AddScore(50);
+					}
+					else {
+						GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Bot Really died Adding 10 ");
+						gm->AddScore(10);
+					}
+				}
+			}
+			else 
+			{ 
+				ATPSPlayer* player = Cast<ATPSPlayer>(HitActor);
+				if (player && player->IsDead()) {
+					GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "You're dead!");
+					Cast<ATPSGameMode>(GetWorld()->GetAuthGameMode())->SetFinalString();
+				}
+			}
 			TrailEnd = Hit.ImpactPoint;
 			if (ImpactEffectToPlay)
 			{

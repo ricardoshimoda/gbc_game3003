@@ -13,6 +13,7 @@
 #include "TimerManager.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
+#include "Engine/Engine.h"
 
 
 // Sets default values
@@ -23,6 +24,8 @@ ATPSCharacter::ATPSCharacter()
 
 	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("Health Component"));
 	HealthComp->OnHealthChanged.AddDynamic(this, &ATPSCharacter::OnHealthChanged);
+
+	bDead = false; 
 }
 
 // Called when the game starts or when spawned
@@ -176,9 +179,10 @@ void ATPSCharacter::DetatchWeapon()
 }
 void ATPSCharacter::OnHealthChanged(UHealthComponent* OwningHealthComp, float Health, float DeltaHealth, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageCauser)
 {
-	if (Health <= 0)
+	if (Health <= 0.0f && !bDead)
 	{
 		bDead = true;
+		GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Jim, he is dead... " + FString::SanitizeFloat(Health));
 
 		GetMovementComponent()->StopMovementImmediately();
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
@@ -200,5 +204,10 @@ void ATPSCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 FVector ATPSCharacter::GetPawnViewLocation() const
 {
 	return Super::GetPawnViewLocation();
+}
+
+bool ATPSCharacter::IsDead()
+{
+	return bDead;
 }
 

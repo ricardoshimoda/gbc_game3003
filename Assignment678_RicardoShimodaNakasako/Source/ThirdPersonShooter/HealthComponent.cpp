@@ -4,6 +4,7 @@
 #include "HealthComponent.h"
 #include "GameFramework/Actor.h"
 #include "Engine/Engine.h"
+#include "TPSGameMode.h"
 
 // Sets default values for this component's properties
 UHealthComponent::UHealthComponent()
@@ -43,18 +44,35 @@ void UHealthComponent::BeginPlay()
 void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-
+	if (bRegenerate) {
+		StartRegenerationTimer += DeltaTime;
+		if (StartRegenerationTimer >= RegenerationCooldown) {
+			RegenerationTimer += DeltaTime;
+			if (RegenerationTimer >= RegenerationRate) {
+				RegenerationTimer -= RegenerationRate;
+				//Health = FMath::Clamp(Health + RegenerationAmount, 0.0f, MaxHealth); 
+				GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Regenerating... " + FString::SanitizeFloat(Health));
+			}
+		}
+		Cast<ATPSGameMode>(GetWorld()->GetAuthGameMode())->playerHealth = Health;
+	}
 	// ...
 }
 
-void UHealthComponent::HandleTakeAnyDamage(AActor * DamagedActor, float Damage, const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
+void UHealthComponent::HandleTakeAnyDamage(AActor * DamagedActor, float Damage, 
+	const UDamageType * DamageType, AController * InstigatedBy, AActor * DamageCauser)
 {
 	if (Damage <= 0.0f)
 	{
 		return;
 	}
+	StartRegenerationTimer = 0.0f;
+	RegenerationTimer = 0.0f;
 
 	Health = FMath::Clamp(Health - Damage, 0.0f, MaxHealth);
+	if (Health <= 0.0f) {
+		bRegenerate = false;
+	}
 	OnHealthChanged.Broadcast(this, Health, Damage, DamageType, InstigatedBy, DamageCauser);
 
 	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Health Changed %f" + FString::SanitizeFloat(Health));

@@ -1,6 +1,6 @@
-D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\Definitions.ThirdPersonShooter.h
-d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\Tracker.h
-D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\Tracker.generated.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\Definitions.ThirdPersonShooter.h
+d:\projects\gbc\05\game3003-consoledev\gbc_game3003\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\Tracker.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\Tracker.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystem.h
 d:\program files\epic games\ue_4.22\engine\source\runtime\navigationsystem\public\NavFilters/NavigationQueryFilter.h
 d:\program files\epic games\ue_4.22\engine\source\runtime\navigationsystem\public\NavAreas/NavArea.h
@@ -21,12 +21,12 @@ d:\program files\epic games\ue_4.22\engine\source\runtime\navigationsystem\publi
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationSystem.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\NavigationSystem\Public\NavigationPath.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationPath.generated.h
-d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\TPSCharacter.h
+d:\projects\gbc\05\game3003-consoledev\gbc_game3003\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\TPSCharacter.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\TPSCharacter.generated.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\TPSCharacter.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
@@ -38,8 +38,8 @@ d:\program files\epic games\ue_4.22\engine\source\runtime\engine\classes\kismet\
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
-d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\HealthComponent.h
-D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\HealthComponent.generated.h
+d:\projects\gbc\05\game3003-consoledev\gbc_game3003\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\HealthComponent.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\HealthComponent.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h

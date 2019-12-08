@@ -1,10 +1,10 @@
-D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\Definitions.ThirdPersonShooter.h
-d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\TPSCharacter.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\Definitions.ThirdPersonShooter.h
+d:\projects\gbc\05\game3003-consoledev\gbc_game3003\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\TPSCharacter.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\TPSCharacter.generated.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\TPSCharacter.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
@@ -21,17 +21,17 @@ D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
-d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\TPSWeapon.h
-D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\TPSWeapon.generated.h
+d:\projects\gbc\05\game3003-consoledev\gbc_game3003\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\TPSWeapon.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\TPSWeapon.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
-d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\HealthComponent.h
-D:\Projects\GBC\05\GAME3003-ConsoleDev\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\HealthComponent.generated.h
-d:\projects\gbc\05\game3003-consoledev\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\ThirdPersonShooter.h
+d:\projects\gbc\05\game3003-consoledev\gbc_game3003\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\HealthComponent.h
+D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Inc\ThirdPersonShooter\HealthComponent.generated.h
+d:\projects\gbc\05\game3003-consoledev\gbc_game3003\assignment678_ricardoshimodanakasako\source\thirdpersonshooter\ThirdPersonShooter.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 D:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h

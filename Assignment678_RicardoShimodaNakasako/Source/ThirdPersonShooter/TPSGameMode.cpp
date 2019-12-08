@@ -5,6 +5,7 @@
 #include "TimerManager.h"
 #include "Engine/World.h"
 #include "HealthComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 
 ATPSGameMode::ATPSGameMode()
@@ -23,12 +24,17 @@ void ATPSGameMode::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	CheckWaveState();
+	float currentTime = UGameplayStatics::GetTimeSeconds(GetWorld());
+	if (currentTime - previousKill > multiplierLimit)
+	{
+		ResetScoreMultiplier();
+	}
 }
 
 void ATPSGameMode::StartWave()
 {
 	waveNumber++;
-	numberOfBotsToSpawn = 2 * waveNumber;
+	numberOfBotsToSpawn = 10 * waveNumber;
 	// set up timer to SpawnBotTimerElapsed()
 	GetWorldTimerManager().SetTimer(TimerHandle_BotSpawner, this, 
 		&ATPSGameMode::SpawnBotTimerElapsed, 1.0f, true, 0.0f);
@@ -83,3 +89,33 @@ void ATPSGameMode::CheckWaveState()
 	PrepareForNextWave();
 }
 
+void ATPSGameMode::AddScore(int scoreToAdd) {
+	float currentTime = UGameplayStatics::GetTimeSeconds(GetWorld());
+	if (previousKill > 0 && (currentTime - previousKill) < multiplierLimit)
+	{
+		IncreaseScoreMultiplier();
+	}
+	previousKill = currentTime;
+	score += scoreToAdd * GetScoreMultiplier();
+	kills++;
+}
+
+int ATPSGameMode::GetScoreMultiplier() {
+	return scoreMultiplier[currentScoreMultiplier];
+}
+void ATPSGameMode::IncreaseScoreMultiplier() {
+	if (currentScoreMultiplier < 3) {
+		currentScoreMultiplier++;
+		scoreMultiplierForScreen = GetScoreMultiplier();
+	}
+}
+void ATPSGameMode::ResetScoreMultiplier() {
+	currentScoreMultiplier = 0;
+	scoreMultiplierForScreen = 1;
+}
+void ATPSGameMode::SetFinalString() 
+{
+	gameResults =	FString(TEXT("Kills: ")) + FString::FromInt(kills) +
+					FString(TEXT("\nScore: ")) + FString::FromInt(score) +
+					FString(TEXT("\nWaves: ")) + FString::FromInt(waveNumber-1);
+}

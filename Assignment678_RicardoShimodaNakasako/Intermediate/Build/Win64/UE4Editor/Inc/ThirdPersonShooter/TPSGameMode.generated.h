@@ -13,8 +13,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define THIRDPERSONSHOOTER_TPSGameMode_generated_h
 
-#define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_15_RPC_WRAPPERS
-#define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetScoreMultiplier) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetScoreMultiplier(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetScoreMultiplier) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(int32*)Z_Param__Result=P_THIS->GetScoreMultiplier(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_15_EVENT_PARMS
 #define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_15_CALLBACK_WRAPPERS
 #define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_15_INCLASS_NO_PURE_DECLS \
@@ -60,7 +80,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATPSGameMode); \
 
 
 #define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__timeBetweenWaves() { return STRUCT_OFFSET(ATPSGameMode, timeBetweenWaves); }
+	FORCEINLINE static uint32 __PPO__timeBetweenWaves() { return STRUCT_OFFSET(ATPSGameMode, timeBetweenWaves); } \
+	FORCEINLINE static uint32 __PPO__waveNumber() { return STRUCT_OFFSET(ATPSGameMode, waveNumber); } \
+	FORCEINLINE static uint32 __PPO__score() { return STRUCT_OFFSET(ATPSGameMode, score); } \
+	FORCEINLINE static uint32 __PPO__scoreMultiplierForScreen() { return STRUCT_OFFSET(ATPSGameMode, scoreMultiplierForScreen); } \
+	FORCEINLINE static uint32 __PPO__gameResults() { return STRUCT_OFFSET(ATPSGameMode, gameResults); }
 
 
 #define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSGameMode_h_12_PROLOG \

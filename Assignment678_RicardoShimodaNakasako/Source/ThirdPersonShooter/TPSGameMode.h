@@ -18,7 +18,21 @@ protected:
 	FTimerHandle TimerHandle_WaveStarter;
 	UPROPERTY(EditDefaultsOnly, Category = "Game Mode")
 	float timeBetweenWaves;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int waveNumber = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int score = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int scoreMultiplierForScreen = 1;
+
+
+	float previousKill = -1.0f;
+	float multiplierLimit = 10.0f;
+	int* scoreMultiplier = new int[4]{1,2,4,8};
+	int currentScoreMultiplier = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString gameResults = "";
+	int kills = 0;
 	int numberOfBotsToSpawn;
 	UFUNCTION(BlueprintImplementableEvent, Category = "Game Mode")
 	void SpawnNewBot();
@@ -29,6 +43,16 @@ protected:
 	void CheckWaveState();
 public:
 	ATPSGameMode();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float playerHealth;
+
 	virtual void StartPlay() override;
 	virtual void Tick(float DeltaTime) override;
+	void AddScore(int scoreToAdd);
+	UFUNCTION(BlueprintCallable, Category = "Game Mode")
+	int GetScoreMultiplier();
+	void IncreaseScoreMultiplier();
+	void ResetScoreMultiplier();
+	void SetFinalString();
+
 };
