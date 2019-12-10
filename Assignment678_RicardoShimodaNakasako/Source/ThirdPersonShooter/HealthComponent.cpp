@@ -31,13 +31,18 @@ void UHealthComponent::BeginPlay()
 	if (myOwner)
 	{
 		myOwner->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::HandleTakeAnyDamage);
+		/*
 		ATPSPlayer* pl = Cast<ATPSPlayer>(myOwner);
 		if (pl) {
 			GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, "Before Manipulating MaxHealth for Player ----" + FString::SanitizeFloat(Health) + "------" + FString::SanitizeFloat(MaxHealth));
 			MaxHealth = 1000;
 			Health = 1000;
+			bRegenerate = true;
+			RegenerationCooldown = 2.0f;
+			RegenerationRate = 2.0f;
+			RegenerationAmount = 5;
 			GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Orange, "Setting Max Health to Player----" + FString::SanitizeFloat(Health) + "------" + FString::SanitizeFloat(MaxHealth));
-		}
+		}*/
 	}
 	StartRegenerationTimer = 0;
 	RegenerationTimer = 0;
@@ -70,16 +75,21 @@ void UHealthComponent::HandleTakeAnyDamage(AActor * DamagedActor, float Damage,
 	{
 		return;
 	}
-	StartRegenerationTimer = 0.0f;
-	RegenerationTimer = 0.0f;
 
 	Health = FMath::Clamp(Health - Damage, 0.0f, MaxHealth);
-	if (Health <= 0.0f) {
-		// Once you're dead you don't come back
-		bRegenerate = false;
+	if (bRegenerate) {
+		if (Health <= 0.0f) {
+			GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Once you're dead you don't come back");
+			// Once you're dead you don't come back
+			bRegenerate = false;
+		}
+		else {
+			GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Resetting Regen timer");
+			StartRegenerationTimer = 0.0f;
+			RegenerationTimer = 0.0f;
+		}
 	}
 	OnHealthChanged.Broadcast(this, Health, Damage, DamageType, InstigatedBy, DamageCauser);
-
 	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Orange, "Health Changed %f" + FString::SanitizeFloat(Health));
 }
 

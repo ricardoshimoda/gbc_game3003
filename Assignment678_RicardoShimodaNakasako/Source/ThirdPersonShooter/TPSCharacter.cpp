@@ -42,7 +42,7 @@ void ATPSCharacter::BeginPlay()
 			FAttachmentTransformRules::SnapToTargetNotIncludingScale, 
 			WeaponSocketName);
 	}
-	//bDead = false;
+	bDead = false;
 }
 
 // Called every frame
@@ -163,7 +163,6 @@ void ATPSCharacter::TakeCover()
 				targetLocation -= overlappingCoverVolume->GetForwardVector() * GetCapsuleComponent()->GetScaledCapsuleRadius();
 				DrawDebugSphere(GetWorld(), targetLocation, 10, 24, FColor::Yellow, false, 5, 0, 2);
 				SetActorLocation(targetLocation);
-
 				bInCover = true;
 			}
 		}
@@ -172,6 +171,7 @@ void ATPSCharacter::TakeCover()
 
 void ATPSCharacter::DetatchWeapon()
 {
+	GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, "Detatching weapon from killed goon");
 	CurrentWeapon->MeshComp->SetSimulatePhysics(true);
 	CurrentWeapon->DetachFromActor(FDetachmentTransformRules::KeepRelativeTransform);
 }

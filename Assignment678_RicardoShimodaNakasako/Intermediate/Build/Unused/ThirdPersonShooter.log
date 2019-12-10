@@ -2,13 +2,6 @@
   Creating makefile for ThirdPersonShooterEditor (ini files are newer than makefile)
   Parsing headers for ThirdPersonShooterEditor
     Running UnrealHeaderTool "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\ThirdPersonShooter.uproject" "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ThirdPersonShooterEditor in 21.7641343 seconds
-  Using Visual Studio 2017 14.16.27023 toolchain (D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (D:\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-ThirdPersonShooter.lib
-       Creating library D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.lib and object D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.exp
-    [2/3] UE4Editor-ThirdPersonShooter.dll
-       Creating library D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.suppressed.lib and object D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\UE4Editor\Development\ThirdPersonShooter\UE4Editor-ThirdPersonShooter.suppressed.exp
-    [3/3] ThirdPersonShooterEditor.target
-  Total time in Parallel executor: 3.27 seconds
-  Total execution time: 31.36 seconds
+  Reflection code generated for ThirdPersonShooterEditor in 21.0754945 seconds
+  Target is up to date
+  Total execution time: 27.00 seconds

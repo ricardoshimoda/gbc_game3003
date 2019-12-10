@@ -7,6 +7,7 @@
 #include "TPSWeapon.generated.h"
 
 class UCameraShake;
+class UAudioComponent;
 
 UCLASS()
 class THIRDPERSONSHOOTER_API ATPSWeapon : public AActor
@@ -54,6 +55,16 @@ protected:
 	float BaseDamage = 20;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
 	float DamageMultiplier = 4;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	float Precision = 0.0;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	float Range = 0.0;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	float Rate = 0.0;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	UAudioComponent* FireSound;
+
 
 public:	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")

@@ -15,6 +15,8 @@
 #include "TPSGameMode.h"
 #include "Engine/Engine.h"
 #include "TPSPlayer.h"
+#include "Components/AudioComponent.h"
+#include "Sound/SoundCue.h"
 
 int32 DebugDrawWeapons = 0;
 
@@ -33,6 +35,10 @@ ATPSWeapon::ATPSWeapon()
 	MeshComp = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Mesh Comp"));
 	RootComponent = (USceneComponent*)MeshComp;
 	TrailEffectParam = "BeamEnd";
+
+	FireSound = CreateDefaultSubobject<UAudioComponent>(TEXT("Firing Sound Component"));
+	FireSound->SetActive(false);
+
 }
 
 // Called when the game starts or when spawned
@@ -51,7 +57,7 @@ void ATPSWeapon::Tick(float DeltaTime)
 
 void ATPSWeapon::StartFire()
 {
-	GetWorldTimerManager().SetTimer(BulletTimer, this, &ATPSWeapon::Fire, 0.5f, true, 0.0f);
+	GetWorldTimerManager().SetTimer(BulletTimer, this, &ATPSWeapon::Fire, Rate, true, 0.0f);
 }
 
 void ATPSWeapon::EndFire()
@@ -67,6 +73,7 @@ void ATPSWeapon::Fire()
 		// Checks if owner is still alive
 		ATPSCharacter* characterOwner = Cast<ATPSCharacter>(GetOwner());
 		if (characterOwner && characterOwner->IsDead()) {
+			// Ceases firing when the owner is deceased
 			EndFire();
 			return;
 		}
@@ -75,8 +82,17 @@ void ATPSWeapon::Fire()
 		FRotator EyeRot;
 		MyOwner->GetActorEyesViewPoint(EyeLoc, EyeRot);
 
-		FVector LineEnd = EyeLoc + 10000 * EyeRot.Vector();
+		FVector CorrectAim = EyeRot.Vector();
+		/*
+		 * Right here we use the precision
+		 */
+		FVector PerperndicularVector = FVector(CorrectAim.Y, CorrectAim.X, 0);
+		FVector FinalShootingVector = (Precision) * CorrectAim + (1-Precision) * PerperndicularVector;
+
+		FVector LineEnd = EyeLoc + Range * FinalShootingVector;
 		FVector TrailEnd = LineEnd;
+
+		FireSound->Play();
 
 		FCollisionQueryParams QueryParams;
 		QueryParams.AddIgnoredActor(MyOwner);

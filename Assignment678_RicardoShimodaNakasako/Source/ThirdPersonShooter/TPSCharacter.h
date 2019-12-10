@@ -38,6 +38,7 @@ protected:
 	TSubclassOf<ATPSWeapon> StarterWeaponClass;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "WeaponProperties")
 	FName WeaponSocketName;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "WeaponProperties")
 	ATPSWeapon* CurrentWeapon;
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "CoverProperties")
 	UBoxComponent* overlappingCoverVolume;

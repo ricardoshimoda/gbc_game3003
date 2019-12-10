@@ -177,6 +177,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATPSCharacter); \
 	FORCEINLINE static uint32 __PPO__bIsAiming() { return STRUCT_OFFSET(ATPSCharacter, bIsAiming); } \
 	FORCEINLINE static uint32 __PPO__StarterWeaponClass() { return STRUCT_OFFSET(ATPSCharacter, StarterWeaponClass); } \
 	FORCEINLINE static uint32 __PPO__WeaponSocketName() { return STRUCT_OFFSET(ATPSCharacter, WeaponSocketName); } \
+	FORCEINLINE static uint32 __PPO__CurrentWeapon() { return STRUCT_OFFSET(ATPSCharacter, CurrentWeapon); } \
 	FORCEINLINE static uint32 __PPO__overlappingCoverVolume() { return STRUCT_OFFSET(ATPSCharacter, overlappingCoverVolume); } \
 	FORCEINLINE static uint32 __PPO__bInCover() { return STRUCT_OFFSET(ATPSCharacter, bInCover); } \
 	FORCEINLINE static uint32 __PPO__HealthComp() { return STRUCT_OFFSET(ATPSCharacter, HealthComp); } \

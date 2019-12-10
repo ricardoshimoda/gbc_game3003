@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSAI() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATPSAI, 2069169402);
+	IMPLEMENT_CLASS(ATPSAI, 2456296960);
 	template<> THIRDPERSONSHOOTER_API UClass* StaticClass<ATPSAI>()
 	{
 		return ATPSAI::StaticClass();

@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSWeapon() {}
 	UPackage* Z_Construct_UPackage__Script_ThirdPersonShooter();
 	THIRDPERSONSHOOTER_API UFunction* Z_Construct_UFunction_ATPSWeapon_Fire();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UAudioComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraShake_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
@@ -70,6 +71,22 @@ void EmptyLinkFunctionForGeneratedCodeTPSWeapon() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeshComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MeshComp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Rate_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Rate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Range_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Range;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Precision_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Precision;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageMultiplier_MetaData[];
 #endif
@@ -135,6 +152,35 @@ void EmptyLinkFunctionForGeneratedCodeTPSWeapon() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATPSWeapon_Statics::NewProp_MeshComp = { "MeshComp", nullptr, (EPropertyFlags)0x00100000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSWeapon, MeshComp), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_MeshComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_MeshComp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSWeapon_Statics::NewProp_FireSound_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "TPSWeapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATPSWeapon_Statics::NewProp_FireSound = { "FireSound", nullptr, (EPropertyFlags)0x002008000009001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSWeapon, FireSound), Z_Construct_UClass_UAudioComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_FireSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_FireSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Rate_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "TPSWeapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Rate = { "Rate", nullptr, (EPropertyFlags)0x0020080000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSWeapon, Rate), METADATA_PARAMS(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Rate_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Rate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Range_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "TPSWeapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Range = { "Range", nullptr, (EPropertyFlags)0x0020080000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSWeapon, Range), METADATA_PARAMS(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Range_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Range_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Precision_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "TPSWeapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Precision = { "Precision", nullptr, (EPropertyFlags)0x0020080000010015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSWeapon, Precision), METADATA_PARAMS(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Precision_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Precision_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSWeapon_Statics::NewProp_DamageMultiplier_MetaData[] = {
 		{ "Category", "Weapon" },
@@ -208,6 +254,10 @@ void EmptyLinkFunctionForGeneratedCodeTPSWeapon() {}
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATPSWeapon_Statics::NewProp_DamageType = { "DamageType", nullptr, (EPropertyFlags)0x0024080000010015, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSWeapon, DamageType), Z_Construct_UClass_UDamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_DamageType_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSWeapon_Statics::NewProp_DamageType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATPSWeapon_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSWeapon_Statics::NewProp_MeshComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSWeapon_Statics::NewProp_FireSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Rate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Range,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSWeapon_Statics::NewProp_Precision,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSWeapon_Statics::NewProp_DamageMultiplier,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSWeapon_Statics::NewProp_BaseDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSWeapon_Statics::NewProp_FireCameraShake,
@@ -246,7 +296,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATPSWeapon, 1863360193);
+	IMPLEMENT_CLASS(ATPSWeapon, 1706398225);
 	template<> THIRDPERSONSHOOTER_API UClass* StaticClass<ATPSWeapon>()
 	{
 		return ATPSWeapon::StaticClass();

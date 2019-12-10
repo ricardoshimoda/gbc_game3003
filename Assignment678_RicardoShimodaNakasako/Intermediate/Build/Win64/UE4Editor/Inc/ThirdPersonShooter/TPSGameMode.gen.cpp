@@ -52,11 +52,10 @@ void EmptyLinkFunctionForGeneratedCodeTPSGameMode() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Game Mode" },
 		{ "ModuleRelativePath", "TPSGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATPSGameMode, nullptr, "GetScoreMultiplier", sizeof(TPSGameMode_eventGetScoreMultiplier_Parms), Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATPSGameMode, nullptr, "GetScoreMultiplier", sizeof(TPSGameMode_eventGetScoreMultiplier_Parms), Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -133,7 +132,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSGameMode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ThirdPersonShooter,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATPSGameMode_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier, "GetScoreMultiplier" }, // 3456576392
+		{ &Z_Construct_UFunction_ATPSGameMode_GetScoreMultiplier, "GetScoreMultiplier" }, // 3946515211
 		{ &Z_Construct_UFunction_ATPSGameMode_SpawnNewBot, "SpawnNewBot" }, // 2647042253
 	};
 #if WITH_METADATA
@@ -164,21 +163,21 @@ void EmptyLinkFunctionForGeneratedCodeTPSGameMode() {}
 		{ "ModuleRelativePath", "TPSGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATPSGameMode_Statics::NewProp_scoreMultiplierForScreen = { "scoreMultiplierForScreen", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSGameMode, scoreMultiplierForScreen), METADATA_PARAMS(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_scoreMultiplierForScreen_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_scoreMultiplierForScreen_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATPSGameMode_Statics::NewProp_scoreMultiplierForScreen = { "scoreMultiplierForScreen", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSGameMode, scoreMultiplierForScreen), METADATA_PARAMS(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_scoreMultiplierForScreen_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_scoreMultiplierForScreen_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSGameMode_Statics::NewProp_score_MetaData[] = {
 		{ "Category", "TPSGameMode" },
 		{ "ModuleRelativePath", "TPSGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATPSGameMode_Statics::NewProp_score = { "score", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSGameMode, score), METADATA_PARAMS(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_score_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_score_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATPSGameMode_Statics::NewProp_score = { "score", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSGameMode, score), METADATA_PARAMS(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_score_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_score_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSGameMode_Statics::NewProp_waveNumber_MetaData[] = {
 		{ "Category", "TPSGameMode" },
 		{ "ModuleRelativePath", "TPSGameMode.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATPSGameMode_Statics::NewProp_waveNumber = { "waveNumber", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSGameMode, waveNumber), METADATA_PARAMS(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_waveNumber_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_waveNumber_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATPSGameMode_Statics::NewProp_waveNumber = { "waveNumber", nullptr, (EPropertyFlags)0x0020080000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSGameMode, waveNumber), METADATA_PARAMS(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_waveNumber_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSGameMode_Statics::NewProp_waveNumber_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSGameMode_Statics::NewProp_timeBetweenWaves_MetaData[] = {
 		{ "Category", "Game Mode" },
@@ -221,7 +220,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATPSGameMode, 1063574236);
+	IMPLEMENT_CLASS(ATPSGameMode, 4123081411);
 	template<> THIRDPERSONSHOOTER_API UClass* StaticClass<ATPSGameMode>()
 	{
 		return ATPSGameMode::StaticClass();
