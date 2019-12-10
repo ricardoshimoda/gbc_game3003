@@ -31,18 +31,8 @@ void UHealthComponent::BeginPlay()
 	if (myOwner)
 	{
 		myOwner->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::HandleTakeAnyDamage);
-		/*
 		ATPSPlayer* pl = Cast<ATPSPlayer>(myOwner);
-		if (pl) {
-			GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Red, "Before Manipulating MaxHealth for Player ----" + FString::SanitizeFloat(Health) + "------" + FString::SanitizeFloat(MaxHealth));
-			MaxHealth = 1000;
-			Health = 1000;
-			bRegenerate = true;
-			RegenerationCooldown = 2.0f;
-			RegenerationRate = 2.0f;
-			RegenerationAmount = 5;
-			GEngine->AddOnScreenDebugMessage(-1, 10, FColor::Orange, "Setting Max Health to Player----" + FString::SanitizeFloat(Health) + "------" + FString::SanitizeFloat(MaxHealth));
-		}*/
+		bRegenerate = pl != NULL;
 	}
 	StartRegenerationTimer = 0;
 	RegenerationTimer = 0;

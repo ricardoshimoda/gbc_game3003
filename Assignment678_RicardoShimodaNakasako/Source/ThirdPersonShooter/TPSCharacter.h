@@ -32,6 +32,8 @@ protected:
 	void BeginCrouch();
 	void EndCrouch();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "CoverProperties")
+	float InCoverTime;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "PlayerProperties")
 	bool bIsAiming;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "WeaponProperties")

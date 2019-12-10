@@ -273,6 +273,10 @@ void EmptyLinkFunctionForGeneratedCodeTPSCharacter() {}
 #endif
 		static void NewProp_bIsAiming_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsAiming;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_InCoverTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_InCoverTime;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -374,6 +378,13 @@ void EmptyLinkFunctionForGeneratedCodeTPSCharacter() {}
 		((ATPSCharacter*)Obj)->bIsAiming = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATPSCharacter_Statics::NewProp_bIsAiming = { "bIsAiming", nullptr, (EPropertyFlags)0x0020080000020015, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ATPSCharacter), &Z_Construct_UClass_ATPSCharacter_Statics::NewProp_bIsAiming_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATPSCharacter_Statics::NewProp_bIsAiming_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSCharacter_Statics::NewProp_bIsAiming_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATPSCharacter_Statics::NewProp_InCoverTime_MetaData[] = {
+		{ "Category", "CoverProperties" },
+		{ "ModuleRelativePath", "TPSCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATPSCharacter_Statics::NewProp_InCoverTime = { "InCoverTime", nullptr, (EPropertyFlags)0x0020080000020005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATPSCharacter, InCoverTime), METADATA_PARAMS(Z_Construct_UClass_ATPSCharacter_Statics::NewProp_InCoverTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATPSCharacter_Statics::NewProp_InCoverTime_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATPSCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSCharacter_Statics::NewProp_deathMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSCharacter_Statics::NewProp_bDead,
@@ -384,6 +395,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSCharacter_Statics::NewProp_WeaponSocketName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSCharacter_Statics::NewProp_StarterWeaponClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSCharacter_Statics::NewProp_bIsAiming,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATPSCharacter_Statics::NewProp_InCoverTime,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATPSCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATPSCharacter>::IsAbstract,
@@ -412,7 +424,7 @@ void EmptyLinkFunctionForGeneratedCodeTPSCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATPSCharacter, 1458869357);
+	IMPLEMENT_CLASS(ATPSCharacter, 447540722);
 	template<> THIRDPERSONSHOOTER_API UClass* StaticClass<ATPSCharacter>()
 	{
 		return ATPSCharacter::StaticClass();

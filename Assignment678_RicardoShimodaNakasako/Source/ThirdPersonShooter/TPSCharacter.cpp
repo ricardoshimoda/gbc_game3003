@@ -64,6 +64,7 @@ void ATPSCharacter::Tick(float DeltaTime)
 				GetMesh()->SetWorldRotation(overlappingCoverVolume->GetComponentRotation().Add(0, 40, 0));
 			}
 		}
+		InCoverTime += DeltaTime;
 	}
 	else
 	{
@@ -150,6 +151,7 @@ void ATPSCharacter::TakeCover()
 		if (bInCover)
 		{
 			bInCover = false;
+			InCoverTime = 0; // Player gets out of cover
 		}
 		else
 		{
@@ -164,6 +166,7 @@ void ATPSCharacter::TakeCover()
 				DrawDebugSphere(GetWorld(), targetLocation, 10, 24, FColor::Yellow, false, 5, 0, 2);
 				SetActorLocation(targetLocation);
 				bInCover = true;
+
 			}
 		}
 	}

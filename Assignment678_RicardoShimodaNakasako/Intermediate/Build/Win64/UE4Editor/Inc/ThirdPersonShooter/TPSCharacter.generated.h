@@ -174,6 +174,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATPSCharacter); \
 
 
 #define Assignment678_RicardoShimodaNakasako_Source_ThirdPersonShooter_TPSCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__InCoverTime() { return STRUCT_OFFSET(ATPSCharacter, InCoverTime); } \
 	FORCEINLINE static uint32 __PPO__bIsAiming() { return STRUCT_OFFSET(ATPSCharacter, bIsAiming); } \
 	FORCEINLINE static uint32 __PPO__StarterWeaponClass() { return STRUCT_OFFSET(ATPSCharacter, StarterWeaponClass); } \
 	FORCEINLINE static uint32 __PPO__WeaponSocketName() { return STRUCT_OFFSET(ATPSCharacter, WeaponSocketName); } \

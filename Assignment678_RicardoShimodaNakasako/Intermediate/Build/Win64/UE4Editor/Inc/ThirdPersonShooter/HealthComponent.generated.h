@@ -119,7 +119,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHealthComponent); \
 	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(UHealthComponent, MaxHealth); } \
 	FORCEINLINE static uint32 __PPO__RegenerationRate() { return STRUCT_OFFSET(UHealthComponent, RegenerationRate); } \
 	FORCEINLINE static uint32 __PPO__RegenerationCooldown() { return STRUCT_OFFSET(UHealthComponent, RegenerationCooldown); } \
-	FORCEINLINE static uint32 __PPO__bRegenerate() { return STRUCT_OFFSET(UHealthComponent, bRegenerate); } \
 	FORCEINLINE static uint32 __PPO__RegenerationAmount() { return STRUCT_OFFSET(UHealthComponent, RegenerationAmount); }
 
 

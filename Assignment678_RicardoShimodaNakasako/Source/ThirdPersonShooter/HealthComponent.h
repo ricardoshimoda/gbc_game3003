@@ -37,7 +37,6 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Regeneration")
 	float RegenerationCooldown;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Regeneration")
 	bool bRegenerate;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Regeneration")

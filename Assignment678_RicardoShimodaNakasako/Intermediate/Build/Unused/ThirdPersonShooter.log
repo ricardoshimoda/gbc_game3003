@@ -2,6 +2,6 @@
   Creating makefile for ThirdPersonShooterEditor (ini files are newer than makefile)
   Parsing headers for ThirdPersonShooterEditor
     Running UnrealHeaderTool "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\ThirdPersonShooter.uproject" "D:\Projects\GBC\05\GAME3003-ConsoleDev\gbc_game3003\Assignment678_RicardoShimodaNakasako\Intermediate\Build\Win64\ThirdPersonShooterEditor\Development\ThirdPersonShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ThirdPersonShooterEditor in 21.0754945 seconds
+  Reflection code generated for ThirdPersonShooterEditor in 70.8748093 seconds
   Target is up to date
-  Total execution time: 27.00 seconds
+  Total execution time: 82.26 seconds
